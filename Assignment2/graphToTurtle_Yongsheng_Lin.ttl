@@ -13,3 +13,4 @@
 :Table322 relations:hasOwner :ETSIInformaticos.
 
 :ETSIInformaticos relations:hasName "ETSI Informáticos".
+
