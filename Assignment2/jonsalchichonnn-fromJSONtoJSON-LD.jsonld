@@ -3,15 +3,16 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "person": "http://www.fi.upm.es/api/people/",
+        "dbo": "http://dbpedia.org/ontology/",
         "name": "rdfs:label",
-        "hometown": "rdfs:label",
-        "age":"xsd:integer",
-        "alma mater": "rdfs:label",
-        "parents": "rdfs:label",
-        "subjects": "rdfs:label",
-        "relation": "rdfs:label",
-        "description":"rdfs:label",
-        "teachers":"rdfs:label"
+        "hometown": "dbo:hometown",
+        "age":"dbo:age",
+        "almaMater": "dbo:almaMater",
+        "parents": "dbo:parent",
+        "subjects": "dbo:AcademicSubject",
+        "relation": "dbo:relation",
+        "description":"rdfs:comment",
+        "teachers":"dbo:mentor"
     },
     "@id":"http://www.fi.upm.es/people/students/29",
     "@type": "person:students",
@@ -19,7 +20,7 @@
     "name": "Yongsheng Lin",
     "hometown": "Fuzhou",
     "age": 97,
-    "alma mater": "UPM",
+    "almaMater": "UPM",
     "parents": [
             {
                 "@id": "http://www.fi.upm.es/people/students/29/parents/father",
