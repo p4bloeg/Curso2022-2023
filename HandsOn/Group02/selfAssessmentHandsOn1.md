@@ -19,7 +19,7 @@
 
 **The "applicationRequirements.html” file:**
 
-- [] Includes a description of the application user interface
+- [x] Includes a description of the application user interface
 
 ## Comments on the self-assessment
-_(If required)_
+All members of the group have participated equally in the development of the files and information research process
