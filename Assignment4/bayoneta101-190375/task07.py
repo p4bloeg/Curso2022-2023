@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -69,15 +69,14 @@ for s, p, o in g.triples((None, RDF.type, ns.Person)):
 
 # SPARQL
 q2 = prepareQuery('''
-  SELECT 
-    ?y
+  SELECT DISTINCT 
+  ?s 
   WHERE { 
-    {?y rdf:type ns:Person.} UNION
-    {?y rdf:type ?x.
-     ?x rdfs:subClassOf ns:Person }
-  }
+    ?subject rdfs:subClassOf* ns:Person .
+    ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?subject
+  } 
   ''',
-  initNs = {"ns": ns }
+  initNs = {"ns": ns,"rdfs":rdfs}
 )
 
 for r in g.query(q2):
@@ -105,18 +104,13 @@ for s,p,o in g.triples((None, RDF.type, ns.Person)):
 #SPARQL:
 q3 = prepareQuery('''
   SELECT DISTINCT ?s ?p ?o
-  WHERE{
-  	{ 
-      ?s rdf:type ns:Person.
-      ?s ?o ?p
-    } UNION {
-      ?s rdf:type ?t.
-      ?s ?o ?p.
-      ?t rdfs:subClassOf ns:Person
-    }
-  }
+  WHERE { 
+    ?subject rdfs:subClassOf* ns:Person .
+    ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?subject.
+    ?s ?p ?o.
+  } 
   ''',
-  initNs = { "ns": ns}
+  initNs = { "ns": ns,"rdfs":rdfs}
 )
 for r in g.query(q3):
   print(r)
