@@ -1,4 +1,5 @@
-Group XX Members:
+Group XX Members
+================
 
-Alfonso Garcia Marin - Alfonsogm
-Carlos Bernal Torregrosa - aplepie
+* Alfonso Garcia Marin - Alfonsogm
+* Carlos Bernal Torregrosa - aplepie
