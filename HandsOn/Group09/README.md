@@ -2,4 +2,4 @@
     -Miguel Yanez (@miguex255)
     -Carlos González-Almansa Laredo (@Formil)
     -Fernandez Alvarez Fernando ()
-    -  Pedro()
+    -Guerrica-Echeverria Agudo Pedro()
