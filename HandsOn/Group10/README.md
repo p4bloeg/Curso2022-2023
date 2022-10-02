@@ -1,4 +1,4 @@
-Group XX Members
+Group 10 Members
 ================
 
 * Alfonso Garcia Marin - Alfonsogm
