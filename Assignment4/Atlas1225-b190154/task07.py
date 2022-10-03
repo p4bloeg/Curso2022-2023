@@ -57,8 +57,9 @@ for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
 
 #SPARQL:
 q1 = """
-select ?s where{
+select ?ind where{
 ?s rdfs:subClassOf* ns:Person.
+?ind rdfs:type ?s
 }
 """
 # Visualize the results
