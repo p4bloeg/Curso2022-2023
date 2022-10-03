@@ -59,7 +59,7 @@ for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
 q1 = """
 select ?ind where{
   {
-?ind rdf:type ?s
+?ind rdf:type ns:Person
   }
   union
   {
