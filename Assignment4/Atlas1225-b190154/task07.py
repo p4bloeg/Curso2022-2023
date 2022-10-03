@@ -58,8 +58,14 @@ for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
 #SPARQL:
 q1 = """
 select ?ind where{
+  {
+?ind rdf:type ?s
+  }
+  union
+  {
 ?s rdfs:subClassOf* ns:Person.
 ?ind rdf:type ?s
+  }
 }
 """
 # Visualize the results
