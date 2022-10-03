@@ -1,7 +1,7 @@
 # GROUP MEMBERS
 
-* Álvaro Alonso Miguel
-* Rafael Alonso Sirera
-* Raúl Casamayor Navas
-* Javier Sabín Gómez
-* Yongsheng Lin
+* Álvaro Alonso Miguel - AlvaroAlonso-0
+* Rafael Alonso Sirera - ralonsosirera
+* Raúl Casamayor Navas - Rulo401
+* Javier Sabín Gómez - JavierSabin
+* Yongsheng Lin - jonsalchichonnn
