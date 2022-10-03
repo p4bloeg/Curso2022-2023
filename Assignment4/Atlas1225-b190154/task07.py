@@ -59,7 +59,7 @@ for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
 q1 = """
 select ?ind where{
 ?s rdfs:subClassOf* ns:Person.
-?ind rdfs:type ?s
+?ind rdf:type ?s
 }
 """
 # Visualize the results
