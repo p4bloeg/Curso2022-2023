@@ -34,7 +34,7 @@ for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
 #SPARQL:
 q1 = """
 select ?s where{
-?s rdfs:subClassOf ns:Person
+?s rdfs:subClassOf* ns:Person
 }
 """
 # Visualize the results
@@ -59,7 +59,7 @@ for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
 q1 = """
 select ?s where{
 ?s rdf:type ns:Person.
-?s rdfs:subClassOf ns:Person.
+?s rdfs:subClassOf* ns:Person.
 }
 """
 # Visualize the results
@@ -86,7 +86,7 @@ for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
 #SPARL:
 q1 = """
 select ?s ?p where{
-?subc rdfs:subClassOf ns:Person.
+?subc rdfs:subClassOf* ns:Person.
 ?s rdf:type ?subc.
 ?s ?x ?p
 }
