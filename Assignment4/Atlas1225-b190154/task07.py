@@ -97,6 +97,7 @@ select ?s ?p where{
 ?s ?x ?p
 }
 """
+
 # Visualize the results
 
 for r in g.query(q1):
