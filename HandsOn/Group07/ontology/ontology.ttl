@@ -1,6 +1,6 @@
- @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns: <http://www.owl-ontologies.com/ns#> .
-@prefix ns2: <http://www.owl-ontologies.com/ns2#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://bicimad.es/group07/class#> .
+@prefix ns2: <http://bicimad.es/group07/property#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -60,7 +60,8 @@ ns2:tiene_direccion a owl:ObjectProperty ;
 
 ns2:tiene_distrito a owl:ObjectProperty ;
     rdfs:label "tiene_distrito" ;
-    rdfs:domain ns:Estacion .
+    rdfs:domain ns:Estacion ;
+    rdfs:range ns:Distrito .
 
 ns2:tiene_fechaDeAlta a owl:DatatypeProperty ;
     rdfs:label "tiene_fecha de alta" ;
@@ -93,4 +94,3 @@ ns:Estacion a owl:Class ;
 
 ns:Direccion a owl:Class ;
     rdfs:label "Direccion" .
-
