@@ -4,20 +4,20 @@
 
 **The “analysis.html” file:**
 
-- [ ] Includes the potential license of the dataset to be generated
-- [ ] Includes the resource naming strategy
+- [X] Includes the potential license of the dataset to be generated
+- [X] Includes the resource naming strategy
 
 **The resource naming strategy:**
 
-- [ ] Uses a domain that is not the one given by default in Protégé
+- [X] Uses a domain that is not the one given by default in Protégé
 - [ ] Uses different paths for ontology resources (i.e., classes and properties) and individuals
 - [ ] Ensures that the paths for individuals of different classes are not the same
 - [ ] Defines individual URIs independently of class URIs
 
 **The ontology file:**
 
-- [x] Uses the .ttl extension
-- [ ] Is serialized in the Turtle format
+- [X] Uses the .ttl extension
+- [X] Is serialized in the Turtle format
 - [ ] Follows the resource naming strategy
 - [ ] Contains at least one class
 - [ ] Contains at least one object property (where the value of the property is a resource)
