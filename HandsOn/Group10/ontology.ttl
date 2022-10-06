@@ -1,0 +1,113 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix monu: <http://MonumentMadrid.com> .
+@prefix ont: <http://MonumentMadrid.com/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+monu: a owl:Ontology ;
+    dc:creator "Javier Rios Serrano" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Monuments Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+ont:addressName a owl:DatatypeProperty ;
+    rdfs:label "address name" ;
+    rdfs:range xsd:string .
+
+ont:addressType a owl:DatatypeProperty ;
+    rdfs:label "address type" ;
+    rdfs:range xsd:string .
+
+ont:city a owl:DatatypeProperty ;
+    rdfs:label "city" ;
+    rdfs:range xsd:string .
+
+ont:contentURL a owl:DatatypeProperty ;
+    rdfs:label "content u r l" ;
+    rdfs:range xsd:uRI .
+
+ont:coordX a owl:DatatypeProperty ;
+    rdfs:label "coord x" ;
+    rdfs:range xsd:string .
+
+ont:coordY a owl:DatatypeProperty ;
+    rdfs:label "coord y" ;
+    rdfs:range xsd:string .
+
+ont:date a owl:DatatypeProperty ;
+    rdfs:label "date" ;
+    rdfs:range xsd:integer .
+
+ont:description a owl:DatatypeProperty ;
+    rdfs:label "description" ;
+    rdfs:range xsd:string .
+
+ont:designedBy a owl:ObjectProperty ;
+    rdfs:label "designed by" .
+
+ont:district a owl:DatatypeProperty ;
+    rdfs:label "district" ;
+    rdfs:range xsd:string .
+
+ont:districtCode a owl:DatatypeProperty ;
+    rdfs:label "district code" ;
+    rdfs:range xsd:integer .
+
+ont:hasLocation a owl:ObjectProperty ;
+    rdfs:label "has location" .
+
+ont:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:range xsd:string .
+
+ont:neighborhood a owl:DatatypeProperty ;
+    rdfs:label "neighborhood" ;
+    rdfs:range xsd:string .
+
+ont:neighborhoodCode a owl:DatatypeProperty ;
+    rdfs:label "neighborhood code" ;
+    rdfs:range xsd:integer .
+
+ont:number a owl:DatatypeProperty ;
+    rdfs:label "number" ;
+    rdfs:range xsd:integer .
+
+ont:pK a owl:DatatypeProperty ;
+    rdfs:label "p k" ;
+    rdfs:domain monu:Monument ;
+    rdfs:range xsd:integer .
+
+ont:postalCode a owl:DatatypeProperty ;
+    rdfs:label "postal code" ;
+    rdfs:range xsd:integer .
+
+ont:province a owl:DatatypeProperty ;
+    rdfs:label "province" ;
+    rdfs:range xsd:integer .
+
+ont:subtype a owl:DatatypeProperty ;
+    rdfs:label "subtype" ;
+    rdfs:range xsd:string .
+
+monu:Authors a owl:Class ;
+    rdfs:label "Authors" ;
+    rdfs:subClassOf ont:Authors .
+
+monu:Localization a owl:Class ;
+    rdfs:label "Localization" ;
+    rdfs:subClassOf ont:Localization .
+
+ont:Authors a owl:Class ;
+    rdfs:label "Authors" .
+
+ont:Localization a owl:Class ;
+    rdfs:label "Localization" .
+
+ont:Monument a owl:Class ;
+    rdfs:label "Monument" .
+
+monu:Monument a owl:Class ;
+    rdfs:label "Monument" ;
+    rdfs:subClassOf ont:Monument .
+
