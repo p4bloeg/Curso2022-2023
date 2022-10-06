@@ -1,6 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix em: <http://ocioMadrid/lcc/ontology/EventosMadrid#> .
-@prefix er: <http://ocioMadrid/lcc/resource> .
+@prefix er: <http://ocioMadrid/lcc/resource/> .
 @prefix ns: <http://ns.com#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -69,14 +69,15 @@ ns:Via a owl:DatatypeProperty ;
     rdfs:label "via" ;
     rdfs:range xsd:string .
 
-em:SeDesarrolla a owl:ObjectProperty ;
+em:seDesarrolla a owl:ObjectProperty ;
     rdfs:label "se desarrolla" ;
     rdfs:domain er:Evento ;
     rdfs:range time:IntervaloTiempo .
 
-em:SeEncuentra a owl:ObjectProperty ;
+em:seEncuentra a owl:ObjectProperty ;
     rdfs:label "se encuentra" ;
-    rdfs:domain er:Instalacion .
+    rdfs:domain er:Instalacion ;
+    rdfs:range er:Barrio .
 
 em:inscribe a owl:ObjectProperty ;
     rdfs:label "inscribe" ;
