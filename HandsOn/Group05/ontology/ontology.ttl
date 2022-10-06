@@ -1,4 +1,5 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix em: <http://ocioMadrid/lcc/ontology/EventosMadrid#> .
 @prefix er: <http://ocioMadrid/lcc/resource> .
 @prefix ns: <http://ns.com#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -52,15 +53,6 @@ ns:Precio a owl:DatatypeProperty ;
     rdfs:label "precio" ;
     rdfs:range xsd:string .
 
-ns:SeDesarrolla a owl:ObjectProperty ;
-    rdfs:label "se desarrolla" ;
-    rdfs:domain er:Evento ;
-    rdfs:range time:IntervaloTiempo .
-
-ns:SeEncuentra a owl:ObjectProperty ;
-    rdfs:label "se encuentra" ;
-    rdfs:domain er:Instalacion .
-
 ns:Tipo a owl:DatatypeProperty ;
     rdfs:label "tipo" ;
     rdfs:range xsd:string .
@@ -77,17 +69,26 @@ ns:Via a owl:DatatypeProperty ;
     rdfs:label "via" ;
     rdfs:range xsd:string .
 
-ns:inscribe a owl:ObjectProperty ;
+em:SeDesarrolla a owl:ObjectProperty ;
+    rdfs:label "se desarrolla" ;
+    rdfs:domain er:Evento ;
+    rdfs:range time:IntervaloTiempo .
+
+em:SeEncuentra a owl:ObjectProperty ;
+    rdfs:label "se encuentra" ;
+    rdfs:domain er:Instalacion .
+
+em:inscribe a owl:ObjectProperty ;
     rdfs:label "inscribe" ;
     rdfs:domain er:Evento ;
     rdfs:range er:Actividad .
 
-ns:perteneceA a owl:ObjectProperty ;
+em:perteneceA a owl:ObjectProperty ;
     rdfs:label "pertenece a" ;
     rdfs:domain er:Barrio ;
     rdfs:range er:Distrito .
 
-ns:seLocaliza a owl:ObjectProperty ;
+em:seLocaliza a owl:ObjectProperty ;
     rdfs:label "se localiza" ;
     rdfs:domain er:Evento ;
     rdfs:range er:Instalacion .
