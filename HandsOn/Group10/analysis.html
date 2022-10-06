@@ -1,37 +1,136 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Análisis de los conjuntos de datos escogidos</title>
-    </head>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Analysis</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+    <link href="requirements/Template/bootstrap.css" rel="stylesheet">
+
+    <link href="requirements/Template/jumbotron.css" rel="stylesheet">
+</head>
+
 <body>
-<h1><span style="color: greenyellow;">*</span></h1>
-<p><strong>* Analisis del conjunto de datos</strong>
-    <br /><strong> * </strong>
-    <br /><strong> * </strong>
-    <br /><strong> * </strong>
-    <br /><strong> * </strong>
-    <br /><strong> * </strong>
-    <br /><strong> * </strong></p>
-<p><strong>*</strong> <strong>+</strong>: .
-    <br /> <strong>* </strong>: .
-    <br /><strong>* </strong>
-    <br />&nbsp;&nbsp; *</p>
- 
- <h1 style="color: greenyellow;">Requisitos</h1>
-       <h2>1.Estrategia de asignación de nombres de recursos</h2>
-      <p>URI de la ontología:<br><strong> -<a href=""></a></strong></p>      
-    <p>La siguiente URI de la estación:<strong><br>-<a href=""></a></strong></p>
-         <p>La siguiente URI de los gases:<strong><br>-<a href=""></a></strong></p>
-        <h2>2.Licencia del conjunto de datos</h2>
-        <p>Los conjuntos de datos usados proceden de <a href="https://datos.madrid.es">datos.madrid.es</a>., y su licencia y Condiciones de Uso se encuentran disponibles en <a href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default"></a>Condiciones Generales<br>
-        Se permite la libre reutilización de todos los documentos disponibles para usos comerciales y no comerciales, siempre y cuando se cumpla con las condiciones expuestas. Por tanto, se trata de una licencia similar a CreativeCommons, con las siguientes condiciones:<br>
-        2- Está prohibido desnaturalizar el sentido de la información.<br>
-        3- Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera: "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, órgano administrativo, organismo o entidad de que se trate)".<br>
-        4- Debe mencionarse la fecha de la última actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida en el documento original.<br>
-        5- No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información.<br>
-        6- Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización.<br>
-        7- En caso de información anonimizada por protección de datos personales u otros motivos, está expresamente prohibido realizar labores de re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles, pasadas, actuales o futuras.<br>
-        Así mismo, se establece que el total responsable de la utilización de los conjuntos de datos será la persona o empresa que utilice dichos conjuntos.
-        </p>
-    </body>
+<main role="main">
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Análisis</h1>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col">
+            <div class="row-md-4 card w-100">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Analisis de los datos</h2>
+                    <p class="card-text">
+                        Los datos que hemos analizado han sido obtenidos del CSV monumentos-ciudad-madrid: <br></b>
+                    </p>
+                        <ul>
+                            <li>
+                                PK: valor Int.
+                            </li>
+                            <li>
+                                Nombre: valor String
+                            </li>
+                            <li>
+                                SubTipo: valor String.
+                            </li>
+                            <li>
+                                Descripcion: valor String.
+                            </li>
+                            <li>
+                                Fecha: valor String
+                            </li>
+                            <li>
+                                Autores: valor String
+                            </li>
+                            <li>
+                                Nombre-via: valor String
+                            </li>
+                            <li>
+                                Clase-via: valor String
+                            </li>
+                            <li>
+                                Localidad: valor String
+                            </li>
+                            <li>
+                                Provincia: valor String
+                            </li>
+                            <li>
+                                Codigo Postal: valor Int
+                            </li>
+                            <li>
+                                Distrito: valor String
+                            </li>
+                            <li>
+                                Coordenada-X: valor String de 6 cifras
+                            </li>
+                            <li>
+                                Coordenada-Y: valor String de 7 cifras
+                            </li>
+                            <li>
+                                Content-URL: valor anyURI
+                            </li>
+                </div>
+            </div>
+            <br/>
+            <div class="row-md-4 card w-100">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Licencia de los datos</h2>
+                    <h4>Propiertario de los datos</h4>
+                    <p class="card-text">
+                        Ayuntamiento de Madrid.<br>
+                    </p>
+                    <h4>Licencia</h4>
+                    <p class="card-text">
+                        La licencia es Creative Commons CC BY 4.0.
+                    </p>
+                    <h4>Uso de la licencia</h4>
+                    <p class="card-text">
+                        La licencia se utiliza para proporcionar un conjunto estándar de términos y condiciones
+                        que los creadores y otros titulares de derechos pueden utilizar para compartir obras originales
+                        de su autoría y cualquier otro material sujeto a derechos de autor.
+                    </p>
+                </div>
+            </div>
+            <br/>
+            <div class="row-md-4 card w-100">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Resource naming strategy</h2>
+                    <p class="card-text">
+
+                    <p class="card-text">
+                       Lista completa de clases, propiedades y recursos quedará definida de la siguiente manera:
+                    </p>
+                    <ul>
+                        <li>Dominio: <a href="http://www.monumentosmadrid.com">http://www.monumentosmadrid.com</a></li>
+                    </ul>
+                    <ul>
+                        <li>Ruta ontología clases: http://www.monumentosmadrid.com/ontology#[nombreClase]
+
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Ruta ontología propiedades: http://www.monumentosmadrid.com/ontology#[nombrePropiedad]
+
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Ruta recursos: http://www.monumentosmadrid.com/resource/[identificador]
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br/>
+            <br/>
+        </div>
+    </div> <!-- /container -->
+</main>
+</body>
 </html>
