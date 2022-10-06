@@ -32,28 +32,34 @@
                     </p>
                         <ul>
                             <li>
-                                PK: valor Int. Restriccion: empieza por 4.
+                                PK: valor Integer. Restriccion: empieza por 4.
                             </li>
                             <li>
                                 Nombre: valor String.
                             </li>
                             <li>
-                                SubTipo: valor String.
+                                SubTipo: valor String. Las posibilidades son:  Edificacion singular, (Elemento conmemorativo, Lápida), Elemento de ornamentación, Escultura conceptual o abstracta, Estatua, (Fuente, Estanque, Lámina de agua), Grupo Escultorico, (Puente construccion civil), (Puerta, Arco triunfal). 
                             </li>
                             <li>
                                 Descripcion: valor String.
                             </li>
                             <li>
-                                Fecha: valor Integer. Es un año
+                                Fecha: valor Integer. Solo es el año
                             </li>
                             <li>
                                 Autores: valor String.
+                            </li>
+                            <li>
+                                Content-URL: valor URI.
                             </li>
                             <li>
                                 Nombre-via: valor String.
                             </li>
                             <li>
                                 Clase-via: valor String.
+                            </li>
+                            <li>
+                                Num: valor Integer.
                             </li>
                             <li>
                                 Localidad: valor String.
@@ -65,6 +71,15 @@
                                 Codigo Postal: valor Integer.
                             </li>
                             <li>
+                                Cod Barrio: valor Integer.
+                            </li>
+                            <li>
+                                Barrio: valor String.
+                            </li>
+                            <li>
+                                Cod Distrito: valor Integer.
+                            </li>
+                            <li>
                                 Distrito: valor String.
                             </li>
                             <li>
@@ -72,9 +87,6 @@
                             </li>
                             <li>
                                 Coordenada-Y: valor Integer de 7 cifras.
-                            </li>
-                            <li>
-                                Content-URL: valor URI.
                             </li>
                 </div>
             </div>
@@ -84,7 +96,7 @@
                     <h2 class="card-title text-center">Licencia de los datos</h2>
                     <h4>Propiertario de los datos</h4>
                     <p class="card-text">
-                        Ayuntamiento de Madrid.<br>
+                        El propietario de los datos es el Ayuntamiento de Madrid.<br>
                     </p>
                     <h4>Licencia</h4>
                     <p class="card-text">
@@ -108,20 +120,20 @@
                        Lista completa de clases, propiedades y recursos quedará definida de la siguiente manera:
                     </p>
                     <ul>
-                        <li>Dominio: <a href="http://www.monumentosmadrid.com">http://www.monumentosmadrid.com</a></li>
+                        <li>Dominio: <a href="http://www.monumentmadrid.com">http://www.monumentmadrid.com</a></li>
                     </ul>
                     <ul>
-                        <li>Ruta ontología clases: http://www.monumentosmadrid.com/ontology#[nombreClase]
+                        <li>Ruta ontología clases: http://www.monumentmadrid.com/ontology#[nombreClase]
 
                         </li>
                     </ul>
                     <ul>
-                        <li>Ruta ontología propiedades: http://www.monumentosmadrid.com/ontology#[nombrePropiedad]
+                        <li>Ruta ontología propiedades: http://www.monumentmadrid.com/ontology#[nombrePropiedad]
 
                         </li>
                     </ul>
                     <ul>
-                        <li>Ruta recursos: http://www.monumentosmadrid.com/resource/[identificador]
+                        <li>Ruta recursos: http://www.monumentmadrid.com/resource/[identificador]
 
                         </li>
                     </ul>
