@@ -23,11 +23,11 @@ ec:isValid rdf:type owl:ObjectProperty ;
                 rdfs:domain ssn:Observation ;
                 rdfs:range xsd:boolean .
 
-ec:typeOfElectricity rdf:type owl:ObjectProperty ;
+ec:typeOfEnergy rdf:type owl:ObjectProperty ; # Coherency refactor
                 rdfs:domain ssn:Observation ;
                 rdfs:range xsd:string .
 
-ec:electricityGroup rdf:type owl:ObjectProperty ;
+ec:energy rdf:type owl:ObjectProperty ; # Coherency refactor
                 rdfs:domain ssn:Observation ;
                 rdfs:range xsd:string .
 

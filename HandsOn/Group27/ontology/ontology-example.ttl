@@ -8,8 +8,8 @@
 <http://www.semanticweb_g27.org/resource/Observation/O2258> a ssn:Observation ;
     schema:unitText "kWh"^^xsd:string ;
     schema:value "13099"^^xsd:string ;
-    ec:electricityGroup "Activa Interruptor Gral"^^xsd:string ;
-    ec:typeOfElectricity "Externo"^^xsd:string ;
+    ec:energyGroup "Activa Interruptor Gral"^^xsd:string ;
+    ec:typeOfEnergy "Energia Activa"^^xsd:string ;
     ssn:featureOfInterest <http://www.semanticweb_g27.org/resource/CivicStructure/E00000000> ;
     time:inXSDDate "2022-03-01"^^xsd:date .
 
