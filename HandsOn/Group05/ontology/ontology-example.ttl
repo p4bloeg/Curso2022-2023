@@ -11,7 +11,7 @@
 
 ev:11768163 em:seDesarrolla time:IntervaloTiempo [
     time:inicio "2022-09-30 00:00:00.0"^^xsd:date; 		
-    time:fin "2022-10-02 23:59:00.0"^^xsd:dat
+    time:fin "2022-10-02 23:59:00.0"^^xsd:date
     time:hora "21:00"^^xsd:time
     ].
 
