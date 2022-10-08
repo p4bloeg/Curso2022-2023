@@ -1,0 +1,21 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix monu: <http://MonumentMadrid.com> .
+@prefix ont: <http://MonumentMadrid.com/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+monu:Monument a :Monument .
+
+monu:address a :address;
+:addressName "Calle Don Manuel 23"^^xsd:string ;
+:addressType "Calle"^^xsd:string .
+
+monu:description a :description ;
+:description "Monumento a las victimas del accidente Alvia 2034" ^^xsd:string .
+
+monu:district a :district ;
+:district "Moncloa"^^xsd:string .
+
+monu:districtCode a :districtCode ;
+:districtCode "342"^^xsd:nonNegativeInteger .
