@@ -10,7 +10,7 @@ monu:409512 a mon:Monument ;
             ont:hasname "A los Abuelos"^^xsd:string ;
             ont:hassubtype "Grupo Escultórico"^^xsd:string ;
             ont:hasdescription "Pequeña escultura, situada en un parque delimitado por la intersección entre las calles Alicún y Purchena, que fue donada por la cercana Escuela Infantil “El Carmen” al Concejal del Distrito Jorge Tapia. La obra constituye un homenaje a los abuelos y abuelas que cuidan de sus nietos."^^xsd:string ;
-            ont:hasinagurationDate 1994^^xsd:integer ;
+            ont:hasinagurationDate 1994^^xsd:integer .
 
 monu:M_Esther a mon:Author ;
             ont:hasname "M., Esther"^^xsd:string .
@@ -26,4 +26,4 @@ monu:Alicun a mon:Location ;
             ont:hascoordy "4481224"^^xsd:string .
 
 monu:409512 ont:desingedBy monu:M_Esther ;
-            ont:hasAddress monu:Alicun ;
+            ont:hasAddress monu:Alicun .
