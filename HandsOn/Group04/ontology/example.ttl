@@ -9,7 +9,7 @@
 	schema:address "Calle Chulapos s/n"^^xsd:string ;
 	properties:emplazamiento "Vía pública"^^xsd:string ;
 	properties:numEquipo "1"^^xsd:integer ;
-	properties:potencia  "50"^^xsd:integer ;
+	properties:potencia  "50 Kw"^^xsd:string ;
 	properties:conectorAC "1"^^xsd:integer ;
 	properties:conectorCC "2"^^xsd:integer ;
 	properties:operador "REPSOL"^^xsd:string ;
@@ -27,6 +27,6 @@
 	rdf:label "Imperial"^^xsd:string .
 
 <http://www.puntodecargasmadrid/Recursos/coordonnes/88812731> a schema:GeoCoordinates ;
-	rdf:longitude "438893,73000000"^^xsd:string ;
-	rdf:latitude  "4473226,26000000"^^xsd:string .
+	schema:longitude "438893,73000000"^^xsd:string ;
+	schema:latitude  "4473226,26000000"^^xsd:string .
 	   
