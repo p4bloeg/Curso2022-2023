@@ -10,35 +10,71 @@ prefixes:
     geo: http://www.opengis.net/ont/geosparql#
 
 mappings:
-  civic_structure:
-    sources:
-        - [consumo-energia-edificios-updated.csv~csv]
-    s: http://www.semanticweb_g27.org/resource/CivicStructure/$(building_id)
-    po:
-        - [a, schema:CivicStructure]
-        - [rdfs:label, $(building_name)]
-        - [schema:address, $(address)]
-        - [schema:geo, http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)]
-        - [ec:buildingType, $(building_type)]
-        - [ec:district, $(district)]
-        - [ec:neighborhood, $(neighborhood)]
-  geo_coordinates:
-    sources:
-        - [consumo-energia-edificios-updated.csv~csv]
-    s: http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)
-    po:
-        - [a, schema:GeoCoordinates]
-        - [schema:latitude, $(latitude)]
-        - [schema:longitude, $(longitude)]
-  observation:
-    sources:
-        - [consumo-energia-edificios-updated.csv~csv]
-    s: http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)
-    po:
-        - [a, ssn:Observation]
-        - [schema:unitText, $(unit_text)]
-        - [schema:value, $(value)]
-        - [ec:energyGroup, $(energy_group)]
-        - [ec:typeOfEnergy, $(type_of_energy)]
-        - [ssn:featureOfInterest, http://www.semanticweb_g27.org/resource/CivicStructure/$(building_id)]
-        - [time:inXSDDate, $(date)]
+    civic_structure:
+        sources:
+            - [consumo-energia-edificios-updated.csv~csv]
+        s: http://www.semanticweb_g27.org/resource/CivicStructure/$(building_id)
+        po:
+            - [a, schema:CivicStructure]
+            -   p: rdfs:label
+                o:
+                    value: $(building_name)
+                    datatype: xsd:string
+            -   p: schema:address
+                o:
+                    value: $(address)
+                    datatype: xsd:string
+            - [schema:geo, http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)]
+            -   p: ec:buildingType
+                o:
+                    value: $(building_type)
+                    datatype: xsd:string
+            -   p: ec:district
+                o:
+                    value: $(district)
+                    datatype: xsd:string
+            -   p: ec:neighborhood
+                o:
+                    value: $(neighborhood)
+                    datatype: xsd:string
+    geo_coordinates:
+        sources:
+            - [consumo-energia-edificios-updated.csv~csv]
+        s: http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)
+        po:
+            - [a, schema:GeoCoordinates]
+            -   p: schema:latitude
+                o:
+                    value: $(latitude)
+                    datatype: xsd:string
+            -   p: schema:longitude
+                o:
+                    value: $(longitude)
+                    datatype: xsd:string
+    observation:
+        sources:
+            - [consumo-energia-edificios-updated.csv~csv]
+        s: http://www.semanticweb_g27.org/resource/Observation/$(observation_id)
+        po:
+            - [a, ssn:Observation]
+            -   p: schema:unitText
+                o:
+                    value: $(unit_text)
+                    datatype: xsd:string
+            -   p: schema:value
+                o:
+                    value: $(value)
+                    datatype: xsd:string
+            -   p: ec:energyGroup
+                o:
+                    value: $(energy_group)
+                    datatype: xsd:string
+            -   p: ec:typeOfEnergy
+                o:
+                    value: $(type_of_energy)
+                    datatype: xsd:string
+            -   p: time:inXSDDate
+                o:
+                    value: $(date)
+                    datatype: xsd:date
+            - [ssn:featureOfInterest, http://www.semanticweb_g27.org/resource/CivicStructure/$(building_id)]
