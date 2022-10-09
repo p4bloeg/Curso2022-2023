@@ -7,7 +7,6 @@ prefixes:
     xsd: http://www.w3.org/2001/XMLSchema#
     time: http://www.w3.org/TR/owl-time#
     schema: http://schema.org/
-    geo: http://www.opengis.net/ont/geosparql#
 
 mappings:
     civic_structure:
@@ -24,7 +23,7 @@ mappings:
                 o:
                     value: $(address)
                     datatype: xsd:string
-            - [schema:geo, http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)]
+            - [schema:geo, http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)~iri]
             -   p: ec:buildingType
                 o:
                     value: $(building_type)
@@ -77,4 +76,4 @@ mappings:
                 o:
                     value: $(date)
                     datatype: xsd:date
-            - [ssn:featureOfInterest, http://www.semanticweb_g27.org/resource/CivicStructure/$(building_id)]
+            - [ssn:featureOfInterest, http://www.semanticweb_g27.org/resource/CivicStructure/$(building_id)~iri]

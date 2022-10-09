@@ -7,7 +7,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix time: <http://www.w3.org/TR/owl-time#> .
 @prefix schema: <http://schema.org/> .
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
 # Ontology v3
 <http://www.semanticweb_g27.org/ontology/EnergyCons> rdf:type owl:Ontology .

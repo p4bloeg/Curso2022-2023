@@ -12,7 +12,6 @@
 @prefix ssn: <http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#> .
 @prefix time: <http://www.w3.org/TR/owl-time#> .
 @prefix ec: <http://www.semanticweb_g27.org/ontology/EnergyCons#> .
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
 map:map_civic_structure_000 rml:logicalSource map:source_000 ;
 	rdf:type rr:TriplesMap ;
@@ -48,7 +47,7 @@ map:om_002 rml:reference "address" ;
 
 map:om_003 rdf:type rr:ObjectMap ;
 	rr:template "http://www.semanticweb_g27.org/resource/GeoCoordinates/{geo_id}" ;
-	rr:termType rr:Literal .
+	rr:termType rr:IRI .
 
 map:om_004 rml:reference "building_type" ;
 	rdf:type rr:ObjectMap ;
@@ -110,7 +109,7 @@ map:om_015 rml:reference "date" ;
 
 map:om_016 rdf:type rr:ObjectMap ;
 	rr:template "http://www.semanticweb_g27.org/resource/CivicStructure/{building_id}" ;
-	rr:termType rr:Literal .
+	rr:termType rr:IRI .
 
 map:pm_000 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
