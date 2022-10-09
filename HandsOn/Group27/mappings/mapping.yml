@@ -1,0 +1,44 @@
+prefixes:
+    ec: http://www.semanticweb_g27.org/ontology/EnergyCons#
+    owl: http://www.w3.org/2002/07/owl#
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    ssn: http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    xsd: http://www.w3.org/2001/XMLSchema#
+    time: http://www.w3.org/TR/owl-time#
+    schema: http://schema.org/
+    geo: http://www.opengis.net/ont/geosparql#
+
+mappings:
+  civic_structure:
+    sources:
+        - [consumo-energia-edificios-updated.csv~csv]
+    s: http://www.semanticweb_g27.org/resource/CivicStructure/$(building_id)
+    po:
+        - [a, schema:CivicStructure]
+        - [rdfs:label, $(building_name)]
+        - [schema:address, $(address)]
+        - [schema:geo, http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)]
+        - [ec:buildingType, $(building_type)]
+        - [ec:district, $(district)]
+        - [ec:neighborhood, $(neighborhood)]
+  geo_coordinates:
+    sources:
+        - [consumo-energia-edificios-updated.csv~csv]
+    s: http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)
+    po:
+        - [a, schema:GeoCoordinates]
+        - [schema:latitude, $(latitude)]
+        - [schema:longitude, $(longitude)]
+  observation:
+    sources:
+        - [consumo-energia-edificios-updated.csv~csv]
+    s: http://www.semanticweb_g27.org/resource/GeoCoordinates/$(geo_id)
+    po:
+        - [a, ssn:Observation]
+        - [schema:unitText, $(unit_text)]
+        - [schema:value, $(value)]
+        - [ec:energyGroup, $(energy_group)]
+        - [ec:typeOfEnergy, $(type_of_energy)]
+        - [ssn:featureOfInterest, http://www.semanticweb_g27.org/resource/CivicStructure/$(building_id)]
+        - [time:inXSDDate, $(date)]
