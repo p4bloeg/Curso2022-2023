@@ -22,4 +22,5 @@
 - [X] Is related to a column in the CSV file
 
 ## Comments on the self-assessment
+
 _(If required)_
