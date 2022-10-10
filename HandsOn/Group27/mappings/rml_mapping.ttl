@@ -22,13 +22,13 @@ map:map_civic_structure_000 rml:logicalSource map:source_000 ;
 map:map_geo_coordinates_000 rml:logicalSource map:source_001 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "geo_coordinates" ;
-	rr:predicateObjectMap map:pom_007, map:pom_008, map:pom_009 ;
+	rr:predicateObjectMap map:pom_007, map:pom_008, map:pom_009, map:pom_010 ;
 	rr:subjectMap map:s_001 .
 
 map:map_observation_000 rml:logicalSource map:source_002 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "observation" ;
-	rr:predicateObjectMap map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016 ;
+	rr:predicateObjectMap map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018 ;
 	rr:subjectMap map:s_002 .
 
 map:om_000 rdf:type rr:ObjectMap ;
@@ -68,46 +68,56 @@ map:om_007 rdf:type rr:ObjectMap ;
 	rr:constant "http://schema.org/GeoCoordinates" ;
 	rr:termType rr:IRI .
 
-map:om_008 rml:reference "latitude" ;
-	rdf:type rr:ObjectMap ;
+map:om_008 rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
+	rr:template "Coordinates({latitude}, {longitude})" ;
 	rr:termType rr:Literal .
 
-map:om_009 rml:reference "longitude" ;
+map:om_009 rml:reference "latitude" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:string ;
+	rr:datatype xsd:float ;
 	rr:termType rr:Literal .
 
-map:om_010 rdf:type rr:ObjectMap ;
+map:om_010 rml:reference "longitude" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_011 rdf:type rr:ObjectMap ;
 	rr:constant "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Observation" ;
 	rr:termType rr:IRI .
 
-map:om_011 rml:reference "unit_text" ;
+map:om_012 rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:template "Observation {date} - {building_name}" ;
+	rr:termType rr:Literal .
+
+map:om_013 rml:reference "unit_text" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_012 rml:reference "value" ;
+map:om_014 rml:reference "value" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_015 rml:reference "energy_group" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_013 rml:reference "energy_group" ;
+map:om_016 rml:reference "type_of_energy" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_014 rml:reference "type_of_energy" ;
-	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:string ;
-	rr:termType rr:Literal .
-
-map:om_015 rml:reference "date" ;
+map:om_017 rml:reference "date" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:date ;
 	rr:termType rr:Literal .
 
-map:om_016 rdf:type rr:ObjectMap ;
+map:om_018 rdf:type rr:ObjectMap ;
 	rr:template "http://www.semanticweb_g27.org/resource/CivicStructure/{building_id}" ;
 	rr:termType rr:IRI .
 
@@ -136,30 +146,36 @@ map:pm_007 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
 map:pm_008 rdf:type rr:PredicateMap ;
-	rr:constant schema:latitude .
+	rr:constant schema:label .
 
 map:pm_009 rdf:type rr:PredicateMap ;
-	rr:constant schema:longitude .
+	rr:constant schema:latitude .
 
 map:pm_010 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant schema:longitude .
 
 map:pm_011 rdf:type rr:PredicateMap ;
-	rr:constant schema:unitText .
+	rr:constant rdf:type .
 
 map:pm_012 rdf:type rr:PredicateMap ;
-	rr:constant schema:value .
+	rr:constant schema:label .
 
 map:pm_013 rdf:type rr:PredicateMap ;
-	rr:constant ec:energyGroup .
+	rr:constant schema:unitText .
 
 map:pm_014 rdf:type rr:PredicateMap ;
-	rr:constant ec:typeOfEnergy .
+	rr:constant schema:value .
 
 map:pm_015 rdf:type rr:PredicateMap ;
-	rr:constant time:inXSDDate .
+	rr:constant ec:energyGroup .
 
 map:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant ec:typeOfEnergy .
+
+map:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant time:inXSDDate .
+
+map:pm_018 rdf:type rr:PredicateMap ;
 	rr:constant ssn:featureOfInterest .
 
 map:pom_000 rdf:type rr:PredicateObjectMap ;
@@ -229,6 +245,14 @@ map:pom_015 rdf:type rr:PredicateObjectMap ;
 map:pom_016 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_016 ;
 	rr:predicateMap map:pm_016 .
+
+map:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_017 ;
+	rr:predicateMap map:pm_017 .
+
+map:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_018 ;
+	rr:predicateMap map:pm_018 .
 
 map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_civic_structure_000, map:map_geo_coordinates_000, map:map_observation_000 ;
 	rdf:type <http://rdfs.org/ns/void#Dataset> .
