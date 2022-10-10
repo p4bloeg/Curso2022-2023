@@ -1,12 +1,22 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns: <http://bicimad.es/group07/class#> .
-@prefix ns2: <http://bicimad.es/group07/property#> .
+@prefix ns: <http://bicimad.com/group07/class#> .
+@prefix ns2: <http://bicimad.com/group07/property#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ns: a owl:Ontology ;
     dc:description "Ontology code created by Chowlk" .
+
+ns2:id_barrio a owl:DatatypeProperty ;
+    rdfs:label "id_barrio" ;
+    rdfs:domain ns:Barrio ;
+    rdfs:range xsd:string .
+
+ns2:id_distrito a owl:DatatypeProperty ;
+    rdfs:label "id_distrito" ;
+    rdfs:domain ns:Distrito ;
+    rdfs:range xsd:integer .
 
 ns2:nombre_barrio a owl:DatatypeProperty ;
     rdfs:label "nombre barrio" ;
@@ -36,7 +46,7 @@ ns2:tiene_GisY a owl:DatatypeProperty ;
 ns2:tiene_Nfinca a owl:DatatypeProperty ;
     rdfs:label "tiene nfinca" ;
     rdfs:domain ns:Direccion ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:integer .
 
 ns2:tiene_barrio a owl:ObjectProperty ;
     rdfs:label "tiene barrio" ;
@@ -88,6 +98,9 @@ ns:Barrio a owl:Class ;
 
 ns:Distrito a owl:Class ;
     rdfs:label "Distrito" .
+
+ns:Barrio a owl:Class ;
+    rdfs:label "Barrio" .
 
 ns:Estacion a owl:Class ;
     rdfs:label "Estacion" .
