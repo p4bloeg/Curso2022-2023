@@ -1,6 +1,6 @@
- @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns: <http://www.owl-ontologies.com/ns#> .
-@prefix ns2: <http://www.owl-ontologies.com/ns2#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://bicimad.com/group07/class#> .
+@prefix ns2: <http://bicimad.com/group07/property#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -56,6 +56,7 @@ ns2:tiene_Nfinca a owl:DatatypeProperty ;
 ns2:tiene_barrio a owl:ObjectProperty ;
     rdfs:label "tiene_barrio" ;
     rdfs:domain ns:Estacion .
+    rdfs:range ns:Barrio
 
 ns2:tiene_calle a owl:DatatypeProperty ;
     rdfs:label "tiene_calle" ;
