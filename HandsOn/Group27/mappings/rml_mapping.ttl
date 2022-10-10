@@ -89,7 +89,7 @@ map:om_011 rdf:type rr:ObjectMap ;
 
 map:om_012 rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
-	rr:template "Observation {date} - {building_name}" ;
+	rr:template "Observation at {date} in {building_name}" ;
 	rr:termType rr:Literal .
 
 map:om_013 rml:reference "unit_text" ;

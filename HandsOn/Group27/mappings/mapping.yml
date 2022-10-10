@@ -62,7 +62,7 @@ mappings:
             - [a, ssn:Observation]
             -   p: schema:label
                 o:
-                    value: Observation $(date) - $(building_name)
+                    value: Observation at $(date) in $(building_name)
                     datatype: xsd:string
             -   p: schema:unitText
                 o:
