@@ -1,3 +1,22 @@
+
+josellorentev
+/
+Curso2022-2023
+Public
+forked from FacultadInformatica-LinkedData/Curso2022-2023
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Curso2022-2023/HandsOn/Group05/cambios_csv.json
+@CarlosD21
+CarlosD21 Hands-on assignment 3
+ 1 contributor
+1382 lines (1382 sloc)  35.4 KB
 [
     {
       "op": "core/text-transform",
@@ -146,7 +165,7 @@
         {
           "from": [
             "10 euros por niño (más gastos de gestión). Sólo se devolverá el importe de la matrícula en caso de que la organización cancele la actividad",
-            "10 euros por niño (más gastos de gestión). Sólo se devolverá el importe de la matrícula en caso de que la organización cancele la actividad"
+            "10 euros por niño (más gastos de gestión). Sólo se devolverá el importe de la matrícula en caso de que la organización cancele la actividad"
           ],
           "fromBlank": false,
           "fromError": false,
@@ -187,7 +206,7 @@
         {
           "from": [
             "Entrada libre",
-            "Entrada libre hasta completar aforo "
+            "Entrada libre hasta completar aforo "
           ],
           "fromBlank": false,
           "fromError": false,
@@ -278,8 +297,8 @@
       "edits": [
         {
           "from": [
-            "30 euros (más gastos de gestión) las 3 sesiones. Solo se devolverá el importe de la matrícula en caso de cancelación de la actividad.",
-            "30 euros las 3 sesiones (más gastos de gestión). Solo se devolverá el importe de la matrícula en caso de cancelación de la actividad."
+            "30 euros (más gastos de gestión) las 3 sesiones. Solo se devolverá el importe de la matrícula en caso de cancelación de la actividad.",
+            "30 euros las 3 sesiones (más gastos de gestión). Solo se devolverá el importe de la matrícula en caso de cancelación de la actividad."
           ],
           "fromBlank": false,
           "fromError": false,
@@ -559,7 +578,7 @@
       "edits": [
         {
           "from": [
-            "30 euros las tres sesiones (más gastos de gestión). Solo se devolverá el importe de la matrícula en caso de cancelación de la actividad."
+            "30 euros las tres sesiones (más gastos de gestión). Solo se devolverá el importe de la matrícula en caso de cancelación de la actividad."
           ],
           "fromBlank": false,
           "fromError": false,
@@ -879,7 +898,7 @@
       "edits": [
         {
           "from": [
-            "Entrada general: 11  euros Próximamente a la venta  audimadrid.com"
+            "Entrada general: 11  euros Próximamente a la venta  audimadrid.com"
           ],
           "fromBlank": false,
           "fromError": false,
@@ -1039,7 +1058,7 @@
       "edits": [
         {
           "from": [
-            "Para inscripciones, reservas y más información en lassinsombrero.actividades@gmail.com (ver pestaña sobre inscripciones).  Para asistir a cualquiera de estas actividades es recomendable darse de alta previamente en Amigos del Teatro (desde los 18 años) y en el JOBO (desde los 16 años).  NOTA: Entrada libre hasta completar aforo (con inscripción previa, cuando se indica)."
+            "Para inscripciones, reservas y más información en lassinsombrero.actividades@gmail.com (ver pestaña sobre inscripciones).  Para asistir a cualquiera de estas actividades es recomendable darse de alta previamente en Amigos del Teatro (desde los 18 años) y en el JOBO (desde los 16 años).  NOTA: Entrada libre hasta completar aforo (con inscripción previa, cuando se indica)."
           ],
           "fromBlank": false,
           "fromError": false,
