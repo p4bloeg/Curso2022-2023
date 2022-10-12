@@ -101,11 +101,6 @@
     },
     {
         "op": "core/column-removal",
-        "columnName": "Direccion 1",
-        "description": "Remove column Direccion 1"
-    },
-    {
-        "op": "core/column-removal",
         "columnName": "Fecha de Alta",
         "description": "Remove column Fecha de Alta"
     },
@@ -229,5 +224,16 @@
         "repeat": false,
         "repeatCount": 10,
         "description": "Text transform on cells in column ﻿Numero using expression grel:value.replace(\" \", \"_\")"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "Direccion 1",
+        "description": "Remove column Direccion 1"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "Distrito",
+        "newColumnName": "nombre_distrito",
+        "description": "Rename column Distrito to nombre_distrito"
     }
 ]
