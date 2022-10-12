@@ -56,7 +56,7 @@ map:om_000 rdf:type rr:ObjectMap ;
 
 map:om_001 rml:reference "Numero" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_002 rml:reference "Latitud" ;
@@ -128,9 +128,9 @@ map:om_016 rdf:type rr:ObjectMap ;
 	rr:constant "http://bicimad.com/group07/class#direccion" ;
 	rr:termType rr:IRI .
 
-map:om_017 rml:reference "N_Finca" ;
+map:om_017 rml:reference "N_finca" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_018 rml:reference "Direccion" ;
@@ -331,3 +331,4 @@ map:source_002 rml:referenceFormulation ql:CSV ;
 map:source_003 rml:referenceFormulation ql:CSV ;
 	rml:source "bases_bicimad-updated.csv" ;
 	rdf:type rml:LogicalSource .
+
