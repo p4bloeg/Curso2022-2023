@@ -235,5 +235,11 @@
         "oldColumnName": "Distrito",
         "newColumnName": "nombre_distrito",
         "description": "Rename column Distrito to nombre_distrito"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "Barrio",
+        "newColumnName": "nombre_barrio",
+        "description": "Rename column Barrio to nombre_barrio"
     }
 ]
