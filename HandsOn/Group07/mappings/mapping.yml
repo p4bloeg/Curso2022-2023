@@ -19,7 +19,7 @@ mappings:
     s: http://bicimad.es/group07/estacion/$(Numero)
     po:
       - [a, ns:estacion]
-      - [ns2:tiene_numero,$(Numero),xsd:integer]
+      - [ns2:tiene_numero,$(Numero),xsd:string]
       - [ns2:tiene_lat,$(Latitud),xsd:float]
       - [ns2:tiene_long,$(Longitud),xsd:float]
       - [ns2:tiene_Nplaza, $(Numero_de_plazas), xsd:integer]
@@ -74,5 +74,5 @@ mappings:
     s: http://bicimad.es/group07/direccion/$(Direccion)/$(N_finca)
     po:
       - [a, ns:direccion]
-      - [ns2:tiene_NFinca,$(N_Finca),xsd:integer]
+      - [ns2:tiene_NFinca,$(N_finca),xsd:string]
       - [ns2:tiene_calle,$(Direccion),xsd:string]
