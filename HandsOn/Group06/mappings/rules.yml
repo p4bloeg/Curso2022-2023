@@ -1,0 +1,36 @@
+base: http://desfibriladores.com/ontology/desfibrilador/
+
+prefixes:
+  desf: http://desfibriladores.com/desfibrilador#
+  dir: http://desfibriladores.com/direccion#
+  xsd: http://www.w3.org/2001/XMLSchema#
+
+mappings:
+  triplesmap1:
+    sources:
+      - [../csv/tmp.csv~csv]
+    s: http://desfibriladores.com/ontology/desfibrilador/$(codigo_dea)
+    po:
+      - [a, desf:Desfibrilador]
+      - [desf:hasEstablecimiento, $(tipo_establecimiento)]
+      - [desf:hasTitularidad, $(tipo_titularidad)]
+      - [desf:hasCodigoMunicipio, $(municipio_codigo), xsd:integer] # TODO: ¿Así se inserta el tipo?
+      - [desf:hasNombreMunicipio, $(municipio_nombre)]
+      - [desf:hasHorarioAcceso , $(horario_acceso)]
+      - [desf:hasDireccionEstablecimiento, $(direccion_establecimiento)]
+  
+  triplesmap2:
+    sources:
+      - [../csv/tmp.csv~csv]
+    s: $(direccion_establecimiento)
+    po:
+      - [a, dir:Direccion]
+      - [dir:hasCodigoViaDireccion, $(direccion_via_codigo)]
+      - [dir:hasNombreViaDireccion, $(direccion_via_nombre)]
+      - [dir:hasNumeroPortalDireccion, $(direccion_portal_numero), xsd:integer]
+      - [dir:hasPisoDireccion, $(direccion_piso)]
+      - [dir:hasPuertaDireccion, $(direccion_puerta)]
+      - [dir:hasCodigoPostalDireccion, $(direccion_codigo_postal), xsd:integer]
+      - [dir:hasUbicacionDireccion, $(direccion_ubicacion)]
+      - [dir:hasCoordXDireccion, $(direccion_coordenada_x), xsd:float]
+      - [dir:hasCoordYDireccion, $(direccion_coordenada_y), xsd:float]
