@@ -244,5 +244,24 @@
     "oldColumnName": "Límite de tiempo",
     "newColumnName": "Time limit",
     "description": "Rename column Límite de tiempo to Time limit"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Owner",
+    "expression": "grel:\"ALCOBENDAS\"",
+    "onError": "set-to-blank",
+    "newColumnName": "City",
+    "columnInsertIndex": 1,
+    "description": "Create column City at index 1 based on column Owner using expression grel:\"ALCOBENDAS\""
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "City",
+    "index": 0,
+    "description": "Move column City to position 0"
   }
 ]
