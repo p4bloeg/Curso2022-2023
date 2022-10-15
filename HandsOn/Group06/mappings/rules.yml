@@ -1,36 +1,46 @@
 base: http://desfibriladores.com/ontology/desfibrilador/
 
 prefixes:
-  desf: http://desfibriladores.com/desfibrilador#
-  dir: http://desfibriladores.com/direccion#
+  ns: http://desfibriladores.com/ontology/desfibrilador/
   xsd: http://www.w3.org/2001/XMLSchema#
+
+sources:
+  desfibriladores:
+    [../csv/desfibriladores-externos-fuera-ambito-sanitario-csv-updated.csv~csv]
 
 mappings:
   triplesmap1:
-    sources:
-      - [../csv/tmp.csv~csv]
+    sources: desfibriladores
     s: http://desfibriladores.com/ontology/desfibrilador/$(codigo_dea)
     po:
-      - [a, desf:Desfibrilador]
-      - [desf:hasEstablecimiento, $(tipo_establecimiento)]
-      - [desf:hasTitularidad, $(tipo_titularidad)]
-      - [desf:hasCodigoMunicipio, $(municipio_codigo), xsd:integer] # TODO: ¿Así se inserta el tipo?
-      - [desf:hasNombreMunicipio, $(municipio_nombre)]
-      - [desf:hasHorarioAcceso , $(horario_acceso)]
-      - [desf:hasDireccionEstablecimiento, $(direccion_establecimiento)]
-  
+      - [a, ns:Desfibrilador]
+      - [ns:hasEstablecimiento, $(tipo_establecimiento)]
+      - [ns:hasTitularidad, $(tipo_titularidad)]
+      - [ns:hasDireccionEstablecimiento, $(direccion_establecimiento)]
+      - [ns:hasHorarioAcceso , $(horario_acceso)]
+      - [ns:hasCodigoDea, $(codigo_dea)]
+      - [ns:hasMunicipio, $(municipio_codigo), xsd:nonNegativeInteger]
+      - [ns:hasHorarioAcceso, $(horario_acceso)]
+
   triplesmap2:
-    sources:
-      - [../csv/tmp.csv~csv]
+    sources: desfibriladores
     s: $(direccion_establecimiento)
     po:
-      - [a, dir:Direccion]
-      - [dir:hasCodigoViaDireccion, $(direccion_via_codigo)]
-      - [dir:hasNombreViaDireccion, $(direccion_via_nombre)]
-      - [dir:hasNumeroPortalDireccion, $(direccion_portal_numero), xsd:integer]
-      - [dir:hasPisoDireccion, $(direccion_piso)]
-      - [dir:hasPuertaDireccion, $(direccion_puerta)]
-      - [dir:hasCodigoPostalDireccion, $(direccion_codigo_postal), xsd:integer]
-      - [dir:hasUbicacionDireccion, $(direccion_ubicacion)]
-      - [dir:hasCoordXDireccion, $(direccion_coordenada_x), xsd:float]
-      - [dir:hasCoordYDireccion, $(direccion_coordenada_y), xsd:float]
+      - [a, ns:Direccion]
+      - [ns:hasCodigoViaDireccion, $(direccion_via_codigo)]
+      - [ns:hasNombreViaDireccion, $(direccion_via_nombre)]
+      - [ns:hasNumeroPortalDireccion, $(direccion_portal_numero)]
+      - [ns:hasPisoDireccion, $(direccion_piso)]
+      - [ns:hasPuertaDireccion, $(direccion_puerta)]
+      - [ns:hasCodigoPostalDireccion, $(direccion_codigo_postal), xsd:nonNegativeInteger]
+      - [ns:hasUbicacionDireccion, $(direccion_ubicacion)]
+      - [ns:hasCoordXDireccion, $(direccion_coordenada_x), xsd:float]
+      - [ns:hasCoordYDireccion, $(direccion_coordenada_y), xsd:float]
+  
+  triplesmap3:
+    sources: desfibriladores
+    s: $(municipio_codigo)
+    po:
+      - [a, ns:Municipio]
+      - [ns:hasCodigoMunicipio, $(municipio_codigo), xsd:nonNegativeInteger]
+      - [ns:hasNombreMunicipio, $(municipio_nombre)]

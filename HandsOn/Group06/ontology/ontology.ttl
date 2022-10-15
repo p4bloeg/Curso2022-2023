@@ -9,7 +9,6 @@
 
 ######    Classes ###### 
 :Desfibrilador rdf:type owl:Class .
-:Titulariadad rdf:type owl:Class .
 :Municipio rdf:type owl:Class .
 :Direccion rdf:type owl:Class .
 
@@ -29,11 +28,6 @@
     rdfs:domain :Municipio ;
     rdfs:range xsd:string .
 
-#Nuevo campo compuesto de los diferentes datos de una direccion
-:hasDireccionEstablecimiento rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Desfibrilador;
-    rdfs:range :Direccion .
-    
 :hasCodigoViaDireccion rdf:type owl:DatatypeProperty ;
     rdfs:domain :Direccion;
     rdfs:range xsd:string .
@@ -75,6 +69,7 @@
 :hasMunicipio rdf:type owl:ObjectProperty ;
     rdfs:domain :Direccion ;
     rdfs:range :Municipio .
-:hasDireccion rdf:type owl:ObjectProperty ;
-    rdfs:domain :Desfibrilador ;
+#Nuevo campo compuesto de los diferentes datos de una direccion
+:hasDireccionEstablecimiento rdf:type owl:ObjectProperty ;
+    rdfs:domain :Desfibrilador;
     rdfs:range :Direccion .
