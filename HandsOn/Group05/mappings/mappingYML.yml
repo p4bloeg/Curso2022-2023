@@ -11,7 +11,7 @@ mappings:
   actividad:
    sources:
       - ['300107-0-agenda-actividades-eventos-csv-updated.csv~csv']
-   s: http://ocioMadrid/lcc/resource/Evento/$(TITULO-ACTIVIDAD)
+   s: http://ocioMadrid/lcc/resource/Actividad/$(TITULO-ACTIVIDAD)
    po:
       - [a, er:Actividad]
       - [ns:Titulo-Actividad,$(TITULO-ACTIVIDAD)]
@@ -20,7 +20,7 @@ mappings:
   instalacion:
    sources:
       - ['300107-0-agenda-actividades-eventos-csv-updated.csv~csv']
-   s: http://ocioMadrid/lcc/resource/Evento/$(NOMBRE-INSTALACION)
+   s: http://ocioMadrid/lcc/resource/Instalacion/$(NOMBRE-INSTALACION)
    po:
       - [a, er:Instalacion]
       - [ns:URL-Instalacion,$(URL-INSTALACION)]
@@ -37,7 +37,7 @@ mappings:
   intervaloTiempo:
    sources:
       - ['300107-0-agenda-actividades-eventos-csv-updated.csv~csv']
-   s: http://www.owl-ontologies.com/time#IntervaloTiempo/$(FECHA)-$(FECHA-FIN)-$(HORA)
+   s: http://www.owl-ontologies.com/time#IntervaloTiempo/$(FECHA)_$(FECHA-FIN)_$(HORA)
    po:
       - [a, time:intervaloTiempo]
       - [time:hora,$(HORA),xsd:time]

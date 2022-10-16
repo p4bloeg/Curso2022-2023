@@ -626,13 +626,13 @@ map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_actividad_000, m
 	rdf:type <http://rdfs.org/ns/void#Dataset> .
 
 map:s_000 rdf:type rr:SubjectMap ;
-	rr:template "http://ocioMadrid/lcc/resource/Evento/{TITULO-ACTIVIDAD}" .
+	rr:template "http://ocioMadrid/lcc/resource/Actividad/{TITULO-ACTIVIDAD}" .
 
 map:s_001 rdf:type rr:SubjectMap ;
-	rr:template "http://ocioMadrid/lcc/resource/Evento/{NOMBRE-INSTALACION}" .
+	rr:template "http://ocioMadrid/lcc/resource/Instalacion/{NOMBRE-INSTALACION}" .
 
 map:s_002 rdf:type rr:SubjectMap ;
-	rr:template "http://www.owl-ontologies.com/time#IntervaloTiempo/{FECHA}-{FECHA-FIN}-{HORA}" .
+	rr:template "http://www.owl-ontologies.com/time#IntervaloTiempo/{FECHA}_{FECHA-FIN}_{HORA}" .
 
 map:s_003 rdf:type rr:SubjectMap ;
 	rr:template "http://ocioMadrid/lcc/resource/Evento/{ID-EVENTO}" .
