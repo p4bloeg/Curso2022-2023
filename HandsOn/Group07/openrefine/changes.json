@@ -254,5 +254,43 @@
         "repeat": false,
         "repeatCount": 10,
         "description": "Text transform on cells in column nombre_distrito using expression value.trim()"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "﻿Numero",
+        "newColumnName": "Numero",
+        "description": "Rename column ﻿Numero to Numero"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Gis_X",
+        "expression": "grel:value.replace(\",\",\".\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column Gis_X using expression grel:value.replace(\",\",\".\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Gis_Y",
+        "expression": "grel:value.replace(\",\",\".\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column Gis_Y using expression grel:value.replace(\",\",\".\")"
+    },
+    {
+        "op": "core/column-move",
+        "columnName": "Longitud",
+        "index": 9,
+        "description": "Move column Longitud to position 9"
     }
 ]
