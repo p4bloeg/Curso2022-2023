@@ -3,3 +3,9 @@ WHERE{
 ?event er:Instalacion ?instalacion .
 ?instalacion em:seLocaliza ?place .
 } LIMIT 100
+
+SELECT DISTINT ?event ?price
+WHERE{
+?event ns:Gratuito ns:Precio .
+?event ?price ?z
+} LIMIT 100
