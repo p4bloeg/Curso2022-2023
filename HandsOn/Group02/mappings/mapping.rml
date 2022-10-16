@@ -468,30 +468,30 @@ map:s_006 rdf:type rr:SubjectMap ;
 	rr:template "http://smartcity.linkeddata.es/transport/data/operator/{OPERATOR}" .
 
 map:source_000 rml:referenceFormulation ql:CSV ;
-	rml:source "bases_bicimad-updated.csv" ;
+	rml:source "csv/bases_bicimad-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_001 rml:referenceFormulation ql:CSV ;
-	rml:source "PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv" ;
+	rml:source "csv/PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_002 rml:referenceFormulation ql:CSV ;
-	rml:source "bases_bicimad-updated.csv" ;
+	rml:source "csv/bases_bicimad-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_003 rml:referenceFormulation ql:CSV ;
-	rml:source "PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv" ;
+	rml:source "csv/PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_004 rml:referenceFormulation ql:CSV ;
-	rml:source "bases_bicimad-updated.csv" ;
+	rml:source "csv/bases_bicimad-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_005 rml:referenceFormulation ql:CSV ;
-	rml:source "PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv" ;
+	rml:source "csv/PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_006 rml:referenceFormulation ql:CSV ;
-	rml:source "PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv" ;
+	rml:source "csv/PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
