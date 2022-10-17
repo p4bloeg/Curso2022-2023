@@ -139,12 +139,18 @@
     "description": "Remove rows"
   },
   {
-    "op": "core/multivalued-cell-split",
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
     "columnName": "AUTORES",
-    "keyColumnName": "PK",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
     "mode": "separator",
     "separator": " - ",
     "regex": false,
-    "description": "Split multi-valued cells in column AUTORES"
+    "maxColumns": 0,
+    "description": "Split column AUTORES by separator"
   }
 ]
