@@ -1,0 +1,75 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  prop: http://www.monumentmadrid.com/ontology#
+  rec: http://www.monumentmadrid.com/resource/
+  
+mappings:
+  monumento:
+    sources:
+      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
+    s: http://www.monumentmadrid.com/resource/$(PK)
+    po:
+      - [a, prop:Monument]
+      - [prop:haspk,$(PK),xsd:integer]
+      - [prop:hasname,$(NOMBRE)]
+      - [prop:hassubtype,$(SUBTIPO)]
+      - [prop:hasdescription,$(DESCRIPCION)]
+      - [prop:hasinagurationdate,$(FECHA)]
+      - [prop:hascontenturl,$(CONTENT-URL)~iri]
+      - p: vocab:designedBy
+        o:
+          - mapping: autores1
+          - mapping: autores2
+          - mapping: autores3
+
+  address:
+    sources:
+      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
+    s: http://www.monumentmadrid.com/resource/$(NOMBRE-VIA)
+    po:
+      - [a, prop:Address]
+      - [prop:hasaddressname,$(NOMBRE-VIA)]
+      - [prop:hasaddresstype,$(CLASE-VIAL)]
+      - [prop:hasaddressnumber,$(NUM),xsd:integer]
+      - [prop:hascity,$(LOCALIDAD)]
+      - [prop:hasprovince,$(PROVINCIA)]
+      - [prop:haspostalcode,$(CODIGO-POSTAL),xsd:integer]
+      - [prop:hasneighborhoodcode,$(COD-BARRIO),xsd:integer]
+      - [prop:hasneighborhood,$(BARRIO)]
+      - [prop:hasdistrictcode,$(COD-DISTRITO),xsd:integer]
+      - [prop:hasdistrict,$(DISTRITO)]
+      - [prop:hascoordx,$(COORDENADA-X)]
+      - [prop:hascoordy,$(COORDENADA-Y)]
+
+  autores1:
+    sources:
+      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
+    s: http://www.monumentmadrid.com/resource/$(Autores 1)
+    po:
+      - [a, prop:Autor]
+      - [prop:hasname,$(Autores 1),xsd:integer]
+
+  autores2:
+    sources:
+      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
+    s: http://www.monumentmadrid.com/resource/$(Autores 2)
+    po:
+      - [a, prop:Autor]
+      - [prop:hasname,$(Autores 2),xsd:integer]
+
+  autores3:
+    sources:
+      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
+    s: http://www.monumentmadrid.com/resource/$(Autores 3)
+    po:
+      - [a, prop:Autor]
+      - [prop:hasname,$(Autores 3),xsd:integer]
