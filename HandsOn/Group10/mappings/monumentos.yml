@@ -11,6 +11,9 @@ prefixes:
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   prop: http://www.monumentmadrid.com/ontology#
   rec: http://www.monumentmadrid.com/resource/
+  geo_core: https://datos.ign.es/def/geo_core#
+  geosparql: http://www.opengis.net/ont/geosparql#
+  sf: http://www.opengis.net/ont/sf#
   
 mappings:
   monumento:
@@ -25,16 +28,21 @@ mappings:
       - [prop:hasdescription,$(DESCRIPCION)]
       - [prop:hasinagurationdate,$(FECHA)]
       - [prop:hascontenturl,$(CONTENT-URL)~iri]
-      - p: vocab:designedBy
+
+      - p: prop:designedBy
         o:
           - mapping: autores1
           - mapping: autores2
           - mapping: autores3
 
+      - p: prop:designedBy
+        o:
+          - mapping: address
+
   address:
     sources:
       - [csv/monumentos-ciudad-madrid.updated.csv~csv]
-    s: http://www.monumentmadrid.com/resource/$(NOMBRE-VIA)
+    s: http://www.monumentmadrid.com/resource/$(NUM)-$(CODIGO-POSTAL)-$(COD-BARRIO)-$(COD-DISTRITO)
     po:
       - [a, prop:Address]
       - [prop:hasaddressname,$(NOMBRE-VIA)]
@@ -47,8 +55,20 @@ mappings:
       - [prop:hasneighborhood,$(BARRIO)]
       - [prop:hasdistrictcode,$(COD-DISTRITO),xsd:integer]
       - [prop:hasdistrict,$(DISTRITO)]
-      - [prop:hascoordx,$(COORDENADA-X)]
-      - [prop:hascoordy,$(COORDENADA-Y)]
+      - p: geosparql:hasGeometry
+        o:
+         - mapping: point
+
+  point:
+    sources:
+      - [csv/monumentos-cuidad-madrid-updated.csv~csv]
+    s: http://www.monumentmadrid.com/resource/$(NUM)-$(CODIGO-POSTAL)-$(COD-BARRIO)-$(COD-DISTRITO)/geometry
+    po:
+      - [a, sf:Point]
+      - [geo_core:xETRS89, $(COORDENADA-X), xsd:float]
+      - [geo_core:yETRS89, $(COORDENADA-Y), xsd:float]
+      - [geo_core:latETRS89, $(LATITUD), xsd:float]
+      - [geo_core:lonETRS89, $(LONGITUD), xsd:float]
 
   autores1:
     sources:
