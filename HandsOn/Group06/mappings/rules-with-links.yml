@@ -3,6 +3,7 @@ base: http://desfibriladores.com/ontology/desfibrilador/
 prefixes:
   ns: http://desfibriladores.com/ontology/desfibrilador/
   xsd: http://www.w3.org/2001/XMLSchema#
+  owl: http://www.w3.org/2002/07/owl#
 
 sources:
   desfibriladores:
@@ -44,4 +45,4 @@ mappings:
       - [a, ns:Municipio]
       - [ns:hasCodigoMunicipio, $(municipio_codigo), xsd:nonNegativeInteger]
       - [ns:hasNombreMunicipio, $(municipio_nombre)]
-      - [ns:hasWikiData, $(same_as_wikidata_municipio)]
+      - [owl:sameAs, $(same_as_wikidata_municipio)~iri]
