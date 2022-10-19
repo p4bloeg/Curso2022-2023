@@ -4707,3 +4707,4 @@
   ns0:nombre_distrito "Usera" ;
   ns0:tiene_barrio <http://bicimad.es/group07/barrio/12-05> ;
   owl:sameAs <https://wikidata.org/entity/Q953368> ;
+  a <http://bicimad.com/group07/class#distrito> .
