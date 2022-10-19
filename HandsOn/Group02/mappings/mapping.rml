@@ -14,21 +14,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ont: <http://smartcity.linkeddata.es/transport/ontology/> .
 
-map:jc_000 rr:child "NEIGHBOURHOOD_ID" ;
-	rr:parent "NEIGHBOURHOOD_ID" .
-
-map:jc_001 rr:child "NEIGHBOURHOOD_ID" ;
-	rr:parent "NEIGHBOURHOOD_ID" .
-
-map:jc_002 rr:child "OPERATOR" ;
-	rr:parent "OPERATOR" .
-
-map:jc_003 rr:child "DISTRICT_ID" ;
-	rr:parent "DISTRICT_ID" .
-
-map:jc_004 rr:child "DISTRICT_ID" ;
-	rr:parent "DISTRICT_ID" .
-
 map:map_bikeStation_000 rml:logicalSource map:source_000 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "bikeStation" ;
@@ -106,8 +91,8 @@ map:om_006 rml:reference "ST_NUMBER" ;
 	rr:termType rr:Literal .
 
 map:om_007 rdf:type rr:ObjectMap ;
-	rr:joinCondition map:jc_000 ;
-	rr:parentTriplesMap map:map_neighbourhood_000 .
+	rr:template "http://smartcity.linkeddata.es/transport/data/neighbourhood/{NEIGHBOURHOOD_ID}" ;
+	rr:termType rr:Literal .
 
 map:om_008 rdf:type rr:ObjectMap ;
 	rr:constant "http://smartcity.linkeddata.es/transport/ontology/ChargeStation" ;
@@ -139,12 +124,12 @@ map:om_013 rml:reference "CONECTOR_INFO" ;
 	rr:termType rr:Literal .
 
 map:om_014 rdf:type rr:ObjectMap ;
-	rr:joinCondition map:jc_001 ;
-	rr:parentTriplesMap map:map_neighbourhood_000 .
+	rr:template "http://smartcity.linkeddata.es/transport/data/neighbourhood/{NEIGHBOURHOOD_ID}" ;
+	rr:termType rr:Literal .
 
 map:om_015 rdf:type rr:ObjectMap ;
-	rr:joinCondition map:jc_002 ;
-	rr:parentTriplesMap map:map_operator_000 .
+	rr:template "http://smartcity.linkeddata.es/transport/data/operator/{OPERATOR}" ;
+	rr:termType rr:Literal .
 
 map:om_016 rdf:type rr:ObjectMap ;
 	rr:constant "http://smartcity.linkeddata.es/transport/ontology/Neighbourhood" ;
@@ -161,8 +146,8 @@ map:om_018 rml:reference "NEIGHBOURHOOD" ;
 	rr:termType rr:Literal .
 
 map:om_019 rdf:type rr:ObjectMap ;
-	rr:joinCondition map:jc_003 ;
-	rr:parentTriplesMap map:map_district_000 .
+	rr:template "http://smartcity.linkeddata.es/transport/data/district/{DISTRICT_ID}" ;
+	rr:termType rr:Literal .
 
 map:om_020 rdf:type rr:ObjectMap ;
 	rr:constant "http://smartcity.linkeddata.es/transport/ontology/Neighbourhood" ;
@@ -179,8 +164,8 @@ map:om_022 rml:reference "NEIGHBOURHOOD" ;
 	rr:termType rr:Literal .
 
 map:om_023 rdf:type rr:ObjectMap ;
-	rr:joinCondition map:jc_004 ;
-	rr:parentTriplesMap map:map_district_000 .
+	rr:template "http://smartcity.linkeddata.es/transport/data/district/{DISTRICT_ID}" ;
+	rr:termType rr:Literal .
 
 map:om_024 rdf:type rr:ObjectMap ;
 	rr:constant "http://smartcity.linkeddata.es/transport/ontology/District" ;
