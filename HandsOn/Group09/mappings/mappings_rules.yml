@@ -83,6 +83,7 @@ mappings:
       - [a, ns:Distrito]
       - [ns:nombre, $(DISTRITO)]
       - [ns:perteneceA, ns:Localidad/$(LOCALIDAD)]
+      - [ns:codigoPostal, $(CODIGO-POSTAL)]
 
   TriplesMapLocalidad:
     sources:
