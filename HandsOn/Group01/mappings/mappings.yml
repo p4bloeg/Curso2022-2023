@@ -1,9 +1,16 @@
 prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
   ns: http://HO-G1.linkeddata.es/
   xsd: http://www.w3.org/2001/XMLSchema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   
 mappings:
-  City: # city
+  City:
     sources:
       - [puntos-de-recarga-updated.csv~csv]
     s: http://HO-G1.linkeddata.es/City/$(City)
@@ -11,14 +18,9 @@ mappings:
       - [a, ns:City]
       - p: ns:hasChargingStation
         o:
-          mapping: Charging_station
-          condition:
-          function: equals
-          parameters:
-            - [str1, $(Charging Station)]
-            - [str2, $(Charging Station)]
+        - mapping: Charging_station
 
-  Charging_station: # charging_station
+  Charging_station:
     sources:
       - [puntos-de-recarga-updated.csv~csv]
     s: http://HO-G1.linkeddata.es/Chargingstation/$(Charging Station)
@@ -33,23 +35,12 @@ mappings:
       - [ns:Latitude, $(Latitude),xsd:decimal]
       - p: ns:hasAddress
         o:
-          mapping: ns:Address
-          condition:
-          function: equals
-          parameters:
-            - [str1, $(Address)]
-            - [str2, $(Address)]
+        - mapping: Address
       - p: ns:hasPeripheral
         o:
-          mapping: ns:Peripheral
-          condition:
-          function: equals
-          parameters:
-            - [str1, $(Peripheral)]
-            - [str2, $(Peripheral)]
-    
+        - mapping: Peripheral
 
-  Address: # address
+  Address:
     sources:
       - [puntos-de-recarga-updated.csv~csv]
     s: http://HO-G1.linkeddata.es/Address/$(Address)
@@ -57,7 +48,7 @@ mappings:
       - [a, ns:Address]
       - [ns:address, $(Address),xsd:String]
 
-  Peripheral: # peripheral
+  Peripheral:
     sources:
       - [puntos-de-recarga-updated.csv~csv]
     s: http://HO-G1.linkeddata.es/Peripheral/$(Peripheral)
@@ -65,7 +56,7 @@ mappings:
       - [a, ns:Peripheral]
       
 
-  Connector: # connector
+  Connector:
     sources:
       - [puntos-de-recarga-updated.csv~csv]
     s: http://HO-G1.linkeddata.es/Chargingstation/$(Charging Station)/Connector/$(Connector)
