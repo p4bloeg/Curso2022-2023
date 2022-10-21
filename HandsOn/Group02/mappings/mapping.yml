@@ -24,7 +24,7 @@ mappings:
       - [ont:coord_lat,$(LATITUDE),xsd:float]
       - [ont:street,$(STREET),xsd:string]
       - [ont:st_number,$(ST_NUMBER),xsd:string]
-      - [ont:hasNeighbourhood,http://smartcity.linkeddata.es/transport/data/neighbourhood/$(NEIGHBOURHOOD_ID)]
+      - [ont:hasNeighbourhood,http://smartcity.linkeddata.es/transport/data/neighbourhood/$(NEIGHBOURHOOD_ID)~iri]
 
   chargeStation:
     sources:
@@ -37,8 +37,9 @@ mappings:
       - [ont:street,$(STREET),xsd:string]
       - [ont:st_number,$(ST_NUMBER),xsd:string]
       - [ont:conector_info,$(CONECTOR_INFO),xsd:string]
-      - [ont:hasNeighbourhood, http://smartcity.linkeddata.es/transport/data/neighbourhood/$(NEIGHBOURHOOD_ID)]
-      - [ont:hasOperator, http://smartcity.linkeddata.es/transport/data/operator/$(OPERATOR)]
+      - [ont:hasLocation, http://smartcity.linkeddata.es/transport/data/location/$(LOCATION)~iri]
+      - [ont:hasNeighbourhood, http://smartcity.linkeddata.es/transport/data/neighbourhood/$(NEIGHBOURHOOD_ID)~iri]
+      - [ont:hasOperator, http://smartcity.linkeddata.es/transport/data/operator/$(OPERATOR)~iri]
 
   neighbourhood:
     sources:
@@ -49,7 +50,7 @@ mappings:
       - [a, ont:Neighbourhood]
       - [ont:number_id,$(NEIGHBOURHOOD_ID),xsd:integer]
       - [ont:name_id,$(NEIGHBOURHOOD),xsd:string]
-      - [ont:hasDistrict, http://smartcity.linkeddata.es/transport/data/district/$(DISTRICT_ID)]
+      - [ont:hasDistrict, http://smartcity.linkeddata.es/transport/data/district/$(DISTRICT_ID)~iri]
 
   district:
     sources:
@@ -68,3 +69,11 @@ mappings:
     po:
       - [a, ont:Operator]
       - [ont:name_id,$(OPERATOR),xsd:string]
+
+  location:
+    sources:
+      - [csv/PUNTOS-PUBLICOS-RECARGA-VEHICULOS-ELECTRICOS-updated.csv~csv]
+    s: http://smartcity.linkeddata.es/transport/data/location/$(LOCATION)
+    po:
+      - [a, ont:Location]
+      - [ont:name_id,$(LOCATION),xsd:string]
