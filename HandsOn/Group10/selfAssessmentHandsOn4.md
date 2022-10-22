@@ -18,14 +18,14 @@
 **Every individual in the RDF files:**
 
 - [X] Has a label with the name of the individual
-- [] Has a type
+- [X] Has a type
 
 **Every value in the RDF files:**
 
-- [ ] Is trimmed
-- [ ] Is properly encoded (e.g., dates, booleans)
-- [ ] Includes its datatype
-- [ ] Uses the correct datatype (e.g., values of 0-1 may be booleans and not integers, not every string made of numbers is a number)
+- [X] Is trimmed
+- [X] Is properly encoded (e.g., dates, booleans)
+- [X] Includes its datatype
+- [X] Uses the correct datatype (e.g., values of 0-1 may be booleans and not integers, not every string made of numbers is a number)
 
 ## Comments on the self-assessment
 _(If required)_
