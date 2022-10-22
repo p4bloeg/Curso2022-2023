@@ -10,7 +10,7 @@ prefixes:
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   prop: http://www.monumentmadrid.com/ontology#
-  rec: http://www.monumentmadrid.com/resource/
+  res: http://www.monumentmadrid.com/resource/
   geo_core: https://datos.ign.es/def/geo_core#
   geosparql: http://www.opengis.net/ont/geosparql#
   sf: http://www.opengis.net/ont/sf#
@@ -28,21 +28,25 @@ mappings:
       - [prop:hasdescription,$(DESCRIPCION)]
       - [prop:hasinagurationdate,$(FECHA)]
       - [prop:hascontenturl,$(CONTENT-URL)~iri]
-
-      - p: prop:designedBy
-        o:
-          - mapping: autores1
-          - mapping: autores2
-          - mapping: autores3
-
-      - p: prop:designedBy
+      - [prop:designedBy,$(AUTORES 1)]
+      - [prop:designedBy,$(AUTORES 2)]
+      - [prop:designedBy,$(AUTORES 3)]
+      - [prop:designedBy,$(AUTORES 4)]
+      - [prop:designedBy,$(AUTORES 5)]
+      - [prop:designedBy,$(AUTORES 6)]
+      - [prop:designedBy,$(AUTORES 7)]
+      - [prop:designedBy,$(AUTORES 8)]
+      - [prop:designedBy,$(AUTORES 9)]
+      - [prop:designedBy,$(AUTORES 10)]
+      - [prop:designedBy,$(AUTORES 11)]
+      - p: prop:hasAddress
         o:
           - mapping: address
 
   address:
     sources:
       - [csv/monumentos-ciudad-madrid.updated.csv~csv]
-    s: http://www.monumentmadrid.com/resource/$(NUM)-$(CODIGO-POSTAL)-$(COD-BARRIO)-$(COD-DISTRITO)
+    s: http://www.monumentmadrid.com/resource/$(COORDENADA-X)-$(COORDENADA-Y)
     po:
       - [a, prop:Address]
       - [prop:hasaddressname,$(NOMBRE-VIA)]
@@ -61,35 +65,11 @@ mappings:
 
   point:
     sources:
-      - [csv/monumentos-cuidad-madrid-updated.csv~csv]
-    s: http://www.monumentmadrid.com/resource/$(NUM)-$(CODIGO-POSTAL)-$(COD-BARRIO)-$(COD-DISTRITO)/geometry
+      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
+    s: http://www.monumentmadrid.com/resource/$(COORDENADA-X)-$(COORDENADA-Y)/geometry
     po:
       - [a, sf:Point]
-      - [geo_core:xETRS89, $(COORDENADA-X), xsd:float]
-      - [geo_core:yETRS89, $(COORDENADA-Y), xsd:float]
-      - [geo_core:latETRS89, $(LATITUD), xsd:float]
-      - [geo_core:lonETRS89, $(LONGITUD), xsd:float]
-
-  autores1:
-    sources:
-      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
-    s: http://www.monumentmadrid.com/resource/$(Autores 1)
-    po:
-      - [a, prop:Autor]
-      - [prop:hasname,$(Autores 1),xsd:integer]
-
-  autores2:
-    sources:
-      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
-    s: http://www.monumentmadrid.com/resource/$(Autores 2)
-    po:
-      - [a, prop:Autor]
-      - [prop:hasname,$(Autores 2),xsd:integer]
-
-  autores3:
-    sources:
-      - [csv/monumentos-ciudad-madrid.updated.csv~csv]
-    s: http://www.monumentmadrid.com/resource/$(Autores 3)
-    po:
-      - [a, prop:Autor]
-      - [prop:hasname,$(Autores 3),xsd:integer]
+      - [geo_core:xETRS89, $(COORDENADA-X),xsd:float]
+      - [geo_core:yETRS89, $(COORDENADA-Y),xsd:float]
+      - [geo_core:latETRS89, $(LATITUD),xsd:float]
+      - [geo_core:lonETRS89, $(LONGITUD),xsd:float]
