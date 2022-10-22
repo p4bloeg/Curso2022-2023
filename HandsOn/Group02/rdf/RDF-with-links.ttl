@@ -3151,8 +3151,9 @@
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/101> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/10> ;
-    ns1:name_id "CÁRMENES" ;
-    ns1:number_id 101 .
+    ns1:name_id "Los Cármenes" ;
+    ns1:number_id 101 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10319792> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/107> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/10> ;
@@ -3162,14 +3163,15 @@
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/111> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/11> ;
-    ns1:name_id "COMILLA" ;
-    ns1:number_id 111 .
+    ns1:name_id "Comillas" ;
+    ns1:number_id 111 ;
+    owl:sameAs <https://wikidata.org/wiki/Q955844> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/113> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/11> ;
     ns1:name_id "San Isidro" ;
     ns1:number_id 113 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3813733> .
+    owl:sameAs <https://wikidata.org/wiki/Q3813733> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/116> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/11> ;
@@ -3187,13 +3189,13 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/14> ;
     ns1:name_id "Pavones" ;
     ns1:number_id 141 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q71760> .
+    owl:sameAs <https://wikidata.org/wiki/Q71760> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/152> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
     ns1:name_id "Pueblo Nuevo" ;
     ns1:number_id 152 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q71753> .
+    owl:sameAs <https://wikidata.org/wiki/Q71753> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/156> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
@@ -3241,19 +3243,19 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
     ns1:name_id "Legazpi" ;
     ns1:number_id 24 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3773990> .
+    owl:sameAs <https://wikidata.org/wiki/Q3773990> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/53> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
     ns1:name_id "Ciudad Jardín" ;
     ns1:number_id 53 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3773744> .
+    owl:sameAs <https://wikidata.org/wiki/Q3773744> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/63> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
     ns1:name_id "Castillejos" ;
     ns1:number_id 63 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q11913212> .
+    owl:sameAs <https://wikidata.org/wiki/Q11913212> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/64> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
@@ -3265,7 +3267,7 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
     ns1:name_id "Valdeacederas" ;
     ns1:number_id 65 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q10388711> .
+    owl:sameAs <https://wikidata.org/wiki/Q10388711> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/86> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/8> ;
@@ -3300,8 +3302,7 @@
 <http://smartcity.linkeddata.es/transport/data/district/12> a ns1:District ;
     ns1:name_id "Usera" ;
     ns1:number_id 12 ;
-    owl:sameAs <https://wikidata.org/wiki/Q953368>,
-        <https://www.wikidata.org/wiki/Q953368> .
+    owl:sameAs <https://wikidata.org/wiki/Q953368> .
 
 <http://smartcity.linkeddata.es/transport/data/district/17> a ns1:District ;
     ns1:name_id "Villaverde" ;
@@ -3317,7 +3318,7 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/10> ;
     ns1:name_id "Barrio de Puerta del Ángel" ;
     ns1:number_id 102 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q31142> .
+    owl:sameAs <https://wikidata.org/wiki/Q31142> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/122> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/12> ;
@@ -3329,38 +3330,37 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/12> ;
     ns1:name_id "Moscardó" ;
     ns1:number_id 125 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q11937679> .
+    owl:sameAs <https://wikidata.org/wiki/Q11937679> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/132> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/13> ;
     ns1:name_id "San Diego" ;
     ns1:number_id 132 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q11946851> .
+    owl:sameAs <https://wikidata.org/wiki/Q11946851> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/136> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/13> ;
     ns1:name_id "Numancia" ;
     ns1:number_id 136 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q10338144> .
+    owl:sameAs <https://wikidata.org/wiki/Q10338144> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/143> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/14> ;
     ns1:name_id "Marroquina" ;
     ns1:number_id 143 ;
-    owl:sameAs <https://wikidata.org/wiki/Q11935636>,
-        <https://www.wikidata.org/wiki/Q11935636> .
+    owl:sameAs <https://wikidata.org/wiki/Q11935636> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/144> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/14> ;
     ns1:name_id "Media Legua" ;
     ns1:number_id 144 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q9031035> .
+    owl:sameAs <https://wikidata.org/wiki/Q9031035> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/154> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
     ns1:name_id "Concepción" ;
     ns1:number_id 154 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q11915156> .
+    owl:sameAs <https://wikidata.org/wiki/Q11915156> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/166> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/16> ;
@@ -3390,25 +3390,22 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
     ns1:name_id "La Chopera" ;
     ns1:number_id 23 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3773750> .
+    owl:sameAs <https://wikidata.org/wiki/Q3773750> .
 
 <http://smartcity.linkeddata.es/transport/data/district/11> a ns1:District ;
     ns1:name_id "Carabanchel" ;
     ns1:number_id 11 ;
-    owl:sameAs <https://wikidata.org/wiki/Q1001991>,
-        <https://www.wikidata.org/wiki/Q1001991> .
+    owl:sameAs <https://wikidata.org/wiki/Q1001991> .
 
 <http://smartcity.linkeddata.es/transport/data/district/13> a ns1:District ;
     ns1:name_id "Puente de Vallecas" ;
     ns1:number_id 13 ;
-    owl:sameAs <https://wikidata.org/wiki/Q2003054>,
-        <https://www.wikidata.org/wiki/Q2003054> .
+    owl:sameAs <https://wikidata.org/wiki/Q2003054> .
 
 <http://smartcity.linkeddata.es/transport/data/district/14> a ns1:District ;
     ns1:name_id "Moratalaz" ;
     ns1:number_id 14 ;
-    owl:sameAs <https://wikidata.org/wiki/Q2076109>,
-        <https://www.wikidata.org/wiki/Q2076109> .
+    owl:sameAs <https://wikidata.org/wiki/Q2076109> .
 
 <http://smartcity.linkeddata.es/transport/data/district/16> a ns1:District ;
     ns1:name_id "Hortaleza" ;
@@ -3423,8 +3420,7 @@
 <http://smartcity.linkeddata.es/transport/data/district/8> a ns1:District ;
     ns1:name_id "Fuencarral-El Pardo" ;
     ns1:number_id 8 ;
-    owl:sameAs <https://wikidata.org/wiki/Q656196>,
-        <https://www.wikidata.org/wiki/Q656196> .
+    owl:sameAs <https://wikidata.org/wiki/Q656196> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/106> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/10> ;
@@ -3442,77 +3438,71 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
     ns1:name_id "Imperial" ;
     ns1:number_id 21 ;
-    owl:sameAs <https://wikidata.org/wiki/Q3773740>,
-        <https://www.wikidata.org/wiki/Q3773740> .
+    owl:sameAs <https://wikidata.org/wiki/Q3773740> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/31> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
     ns1:name_id "Pacífico" ;
     ns1:number_id 31 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3773753> .
+    owl:sameAs <https://wikidata.org/wiki/Q3773753> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/33> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
     ns1:name_id "Estrella" ;
     ns1:number_id 33 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3773738> .
+    owl:sameAs <https://wikidata.org/wiki/Q3773738> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/43> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
     ns1:name_id "Fuente del Berro" ;
     ns1:number_id 43 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3814564> .
+    owl:sameAs <https://wikidata.org/wiki/Q3814564> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/52> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
     ns1:name_id "Prosperidad" ;
     ns1:number_id 52 ;
-    owl:sameAs <https://wikidata.org/wiki/Q4776>,
-        <https://www.wikidata.org/wiki/Q4776> .
+    owl:sameAs <https://wikidata.org/wiki/Q4776> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/61> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
     ns1:name_id "Bellas Vistas" ;
     ns1:number_id 61 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q11908929> .
+    owl:sameAs <https://wikidata.org/wiki/Q11908929> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/66> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
     ns1:name_id "Berruguete" ;
     ns1:number_id 66 ;
-    owl:sameAs <https://wikidata.org/wiki/Q11909208>,
-        <https://www.wikidata.org/wiki/Q11909208> .
+    owl:sameAs <https://wikidata.org/wiki/Q11909208> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/76> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
     ns1:name_id "Vallehermoso" ;
     ns1:number_id 76 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q6122685> .
+    owl:sameAs <https://wikidata.org/wiki/Q6122685> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/85> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/8> ;
     ns1:name_id "La Paz" ;
     ns1:number_id 85 ;
-    owl:sameAs <https://wikidata.org/wiki/Q5869740>,
-        <https://www.wikidata.org/wiki/Q5869740> .
+    owl:sameAs <https://wikidata.org/wiki/Q5869740> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/91> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/9> ;
     ns1:name_id "Casa de Campo" ;
     ns1:number_id 91 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q16302441> .
+    owl:sameAs <https://wikidata.org/wiki/Q16302441> .
 
 <http://smartcity.linkeddata.es/transport/data/district/10> a ns1:District ;
     ns1:name_id "Latina" ;
     ns1:number_id 10 ;
-    owl:sameAs <https://wikidata.org/wiki/Q794954>,
-        <https://www.wikidata.org/wiki/Q794954> .
+    owl:sameAs <https://wikidata.org/wiki/Q794954> .
 
 <http://smartcity.linkeddata.es/transport/data/district/9> a ns1:District ;
     ns1:name_id "Moncloa-Aravaca" ;
     ns1:number_id 9 ;
-    owl:sameAs <https://wikidata.org/wiki/Q2017682>,
-        <https://www.wikidata.org/wiki/Q2017682> .
+    owl:sameAs <https://wikidata.org/wiki/Q2017682> .
 
 <http://smartcity.linkeddata.es/transport/data/location/Mercamadrid> a ns1:Location ;
     ns1:name_id "Mercamadrid" .
@@ -3521,39 +3511,37 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
     ns1:name_id "Ventas" ;
     ns1:number_id 151 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q71762> .
+    owl:sameAs <https://wikidata.org/wiki/Q71762> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/155> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
     ns1:name_id "San Pascual" ;
     ns1:number_id 155 ;
-    owl:sameAs <https://wikidata.org/wiki/Q165612>,
-        <https://www.wikidata.org/wiki/Q165612> .
+    owl:sameAs <https://wikidata.org/wiki/Q165612> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/25> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
     ns1:name_id "Las Delicias" ;
     ns1:number_id 25 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3773736> .
+    owl:sameAs <https://wikidata.org/wiki/Q3773736> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/27> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
     ns1:name_id "Atocha" ;
     ns1:number_id 27 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3814594> .
+    owl:sameAs <https://wikidata.org/wiki/Q3814594> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/32> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
     ns1:name_id "Adelfas" ;
     ns1:number_id 32 ;
-    owl:sameAs <https://wikidata.org/wiki/Q3774001>,
-        <https://www.wikidata.org/wiki/Q3774001> .
+    owl:sameAs <https://wikidata.org/wiki/Q3774001> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/36> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
     ns1:name_id "Niño Jesús" ;
     ns1:number_id 36 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3773746> .
+    owl:sameAs <https://wikidata.org/wiki/Q3773746> .
 
 <http://smartcity.linkeddata.es/transport/data/operator/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> a ns1:Operator ;
     ns1:name_id "Empresa Municipal de Transportes de Madrid" ;
@@ -3567,124 +3555,107 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
     ns1:name_id "Ibiza" ;
     ns1:number_id 34 ;
-    owl:sameAs <https://wikidata.org/wiki/Q15249910>,
-        <https://www.wikidata.org/wiki/Q15249910> .
+    owl:sameAs <https://wikidata.org/wiki/Q15249910> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/45> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
     ns1:name_id "Lista" ;
     ns1:number_id 45 ;
-    owl:sameAs <https://wikidata.org/wiki/Q4779>,
-        <https://www.wikidata.org/wiki/Q4779> .
+    owl:sameAs <https://wikidata.org/wiki/Q4779> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/56> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
     ns1:name_id "Castilla" ;
     ns1:number_id 56 ;
-    owl:sameAs <https://wikidata.org/wiki/Q3813735>,
-        <https://www.wikidata.org/wiki/Q3813735> .
+    owl:sameAs <https://wikidata.org/wiki/Q3813735> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/71> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
     ns1:name_id "Gaztambide" ;
     ns1:number_id 71 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q10288587> .
+    owl:sameAs <https://wikidata.org/wiki/Q10288587> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/73> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
     ns1:name_id "Trafalgar" ;
     ns1:number_id 73 ;
-    owl:sameAs <https://wikidata.org/wiki/Q10384027>,
-        <https://www.wikidata.org/wiki/Q10384027> .
+    owl:sameAs <https://wikidata.org/wiki/Q10384027> .
 
 <http://smartcity.linkeddata.es/transport/data/district/1> a ns1:District ;
     ns1:name_id "Centro" ;
     ns1:number_id 1 ;
-    owl:sameAs <https://wikidata.org/wiki/Q1763376>,
-        <https://www.wikidata.org/wiki/Q1763376> .
+    owl:sameAs <https://wikidata.org/wiki/Q1763376> .
 
 <http://smartcity.linkeddata.es/transport/data/district/15> a ns1:District ;
     ns1:name_id "Ciudad Lineal" ;
     ns1:number_id 15 ;
-    owl:sameAs <https://wikidata.org/wiki/Q1763694>,
-        <https://www.wikidata.org/wiki/Q1763694> .
+    owl:sameAs <https://wikidata.org/wiki/Q1763694> .
 
 <http://smartcity.linkeddata.es/transport/data/district/3> a ns1:District ;
     ns1:name_id "Retiro" ;
     ns1:number_id 3 ;
-    owl:sameAs <https://wikidata.org/wiki/Q2002296>,
-        <https://www.wikidata.org/wiki/Q2002296> .
+    owl:sameAs <https://wikidata.org/wiki/Q2002296> .
 
 <http://smartcity.linkeddata.es/transport/data/district/4> a ns1:District ;
     ns1:name_id "Salamanca" ;
     ns1:number_id 4 ;
-    owl:sameAs <https://wikidata.org/wiki/Q1773521>,
-        <https://www.wikidata.org/wiki/Q1773521> .
+    owl:sameAs <https://wikidata.org/wiki/Q1773521> .
 
 <http://smartcity.linkeddata.es/transport/data/district/5> a ns1:District ;
     ns1:name_id "Chamartín" ;
     ns1:number_id 5 ;
-    owl:sameAs <https://wikidata.org/wiki/Q1766348>,
-        <https://www.wikidata.org/wiki/Q1766348> .
+    owl:sameAs <https://wikidata.org/wiki/Q1766348> .
 
 <http://smartcity.linkeddata.es/transport/data/district/6> a ns1:District ;
     ns1:name_id "Tetuán" ;
     ns1:number_id 6 ;
-    owl:sameAs <https://wikidata.org/wiki/Q1773540>,
-        <https://www.wikidata.org/wiki/Q1773540> .
+    owl:sameAs <https://wikidata.org/wiki/Q1773540> .
 
 <http://smartcity.linkeddata.es/transport/data/district/7> a ns1:District ;
     ns1:name_id "Chamberí" ;
     ns1:number_id 7 ;
-    owl:sameAs <https://wikidata.org/wiki/Q1763370>,
-        <https://www.wikidata.org/wiki/Q1763370> .
+    owl:sameAs <https://wikidata.org/wiki/Q1763370> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/26> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
     ns1:name_id "Palos de la Frontera" ;
     ns1:number_id 26 ;
-    owl:sameAs <https://wikidata.org/wiki/Q521009>,
-        <https://www.wikidata.org/wiki/Q521009> .
+    owl:sameAs <https://wikidata.org/wiki/Q521009> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/54> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
     ns1:name_id "Hispanoamérica" ;
     ns1:number_id 54 ;
-    owl:sameAs <https://wikidata.org/wiki/Q3814573>,
-        <https://www.wikidata.org/wiki/Q3814573> .
+    owl:sameAs <https://wikidata.org/wiki/Q3814573> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/55> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
     ns1:name_id "Nueva España" ;
     ns1:number_id 55 ;
-    owl:sameAs <https://wikidata.org/wiki/Q10338128>,
-        <https://www.wikidata.org/wiki/Q10338128> .
+    owl:sameAs <https://wikidata.org/wiki/Q10338128> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/72> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
     ns1:name_id "Arapiles" ;
     ns1:number_id 72 ;
-    owl:sameAs <https://wikidata.org/wiki/Q10856744>,
-        <https://www.wikidata.org/wiki/Q10856744> .
+    owl:sameAs <https://wikidata.org/wiki/Q10856744> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/74> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
     ns1:name_id "Almagro" ;
     ns1:number_id 74 ;
-    owl:sameAs <https://wikidata.org/wiki/Q10954432>,
-        <https://www.wikidata.org/wiki/Q10954432> .
+    owl:sameAs <https://wikidata.org/wiki/Q10954432> .
 
 <http://smartcity.linkeddata.es/transport/data/district/2> a ns1:District ;
     ns1:name_id "Arganzuela" ;
     ns1:number_id 2 ;
-    owl:sameAs <https://wikidata.org/wiki/Q2000929>,
-        <https://www.wikidata.org/wiki/Q2000929> .
+    owl:sameAs <https://wikidata.org/wiki/Q2000929> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/13> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
     ns1:name_id "Cortes" ;
     ns1:number_id 13 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+    owl:sameAs <https://wikidata.org/wiki/Q2535637> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/181> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/18> ;
@@ -3696,8 +3667,7 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/9> ;
     ns1:name_id "Ciudad Universitaria" ;
     ns1:number_id 93 ;
-    owl:sameAs <https://wikidata.org/wiki/Q3319235>,
-        <https://www.wikidata.org/wiki/Q3319235> .
+    owl:sameAs <https://wikidata.org/wiki/Q3319235> .
 
 <http://smartcity.linkeddata.es/transport/data/operator/Endesa> a ns1:Operator ;
     ns1:name_id "Endesa" ;
@@ -3711,48 +3681,43 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
     ns1:name_id "Las Acacias" ;
     ns1:number_id 22 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q3319190> .
+    owl:sameAs <https://wikidata.org/wiki/Q3319190> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/46> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
     ns1:name_id "Castellana" ;
     ns1:number_id 46 ;
-    owl:sameAs <https://wikidata.org/wiki/Q4781>,
-        <https://www.wikidata.org/wiki/Q4781> .
+    owl:sameAs <https://wikidata.org/wiki/Q4781> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/62> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
     ns1:name_id "Cuatro Caminos" ;
     ns1:number_id 62 ;
-    owl:sameAs <https://wikidata.org/wiki/Q5824684>,
-        <https://www.wikidata.org/wiki/Q5824684> .
+    owl:sameAs <https://wikidata.org/wiki/Q5824684> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/92> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/9> ;
     ns1:name_id "Argüelles" ;
     ns1:number_id 92 ;
-    owl:sameAs <https://wikidata.org/wiki/Q64874>,
-        <https://www.wikidata.org/wiki/Q64874> .
+    owl:sameAs <https://wikidata.org/wiki/Q64874> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/44> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
     ns1:name_id "La Guindalera" ;
     ns1:number_id 44 ;
-    owl:sameAs <https://wikidata.org/wiki/Q3814559>,
-        <https://www.wikidata.org/wiki/Q3814559> .
+    owl:sameAs <https://wikidata.org/wiki/Q3814559> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/75> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
     ns1:name_id "Ríos Rosas" ;
     ns1:number_id 75 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q10366270> .
+    owl:sameAs <https://wikidata.org/wiki/Q10366270> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/42> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
     ns1:name_id "Goya" ;
     ns1:number_id 42 ;
-    owl:sameAs <https://wikidata.org/wiki/Q3814578>,
-        <https://www.wikidata.org/wiki/Q3814578> .
+    owl:sameAs <https://wikidata.org/wiki/Q3814578> .
 
 <http://smartcity.linkeddata.es/transport/data/operator/DRIVE%20THE%20CITY> a ns1:Operator ;
     ns1:name_id "DRIVE THE CITY" ;
@@ -3762,49 +3727,43 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
     ns1:name_id "Embajadores" ;
     ns1:number_id 12 ;
-    owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+    owl:sameAs <https://wikidata.org/wiki/Q2449844> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/14> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
     ns1:name_id "Justicia" ;
     ns1:number_id 14 ;
-    owl:sameAs <https://wikidata.org/wiki/Q1992319>,
-        <https://www.wikidata.org/wiki/Q1992319> .
+    owl:sameAs <https://wikidata.org/wiki/Q1992319> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/16> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
     ns1:name_id "Sol" ;
     ns1:number_id 16 ;
-    owl:sameAs <https://wikidata.org/wiki/Q2465181>,
-        <https://www.wikidata.org/wiki/Q2465181> .
+    owl:sameAs <https://wikidata.org/wiki/Q2465181> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/35> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
     ns1:name_id "Jerónimos" ;
     ns1:number_id 35 ;
-    owl:sameAs <https://wikidata.org/wiki/Q10306766>,
-        <https://www.wikidata.org/wiki/Q10306766> .
+    owl:sameAs <https://wikidata.org/wiki/Q10306766> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/11> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
     ns1:name_id "Palacio" ;
     ns1:number_id 11 ;
-    owl:sameAs <https://wikidata.org/wiki/Q2136510>,
-        <https://www.wikidata.org/wiki/Q2136510> .
+    owl:sameAs <https://wikidata.org/wiki/Q2136510> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/51> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
     ns1:name_id "El Viso" ;
     ns1:number_id 51 ;
-    owl:sameAs <https://wikidata.org/wiki/Q4778>,
-        <https://www.wikidata.org/wiki/Q4778> .
+    owl:sameAs <https://wikidata.org/wiki/Q4778> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/15> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
     ns1:name_id "Universidad" ;
     ns1:number_id 15 ;
-    owl:sameAs <https://wikidata.org/wiki/Q10387767>,
-        <https://www.wikidata.org/wiki/Q10387767> .
+    owl:sameAs <https://wikidata.org/wiki/Q10387767> .
 
 <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> a ns1:Operator ;
     ns1:name_id "Gestión Inteligente de Cargas" ;
@@ -3814,8 +3773,7 @@
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
     ns1:name_id "Recoletos" ;
     ns1:number_id 41 ;
-    owl:sameAs <https://wikidata.org/wiki/Q3814551>,
-        <https://www.wikidata.org/wiki/Q3814551> .
+    owl:sameAs <https://wikidata.org/wiki/Q3814551> .
 
 <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> a ns1:Location ;
     ns1:name_id "Aparcamiento" .
