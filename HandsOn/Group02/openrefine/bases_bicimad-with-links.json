@@ -28,11 +28,11 @@
       "mode": "row-based"
     },
     "baseColumnName": "DISTRICT",
-    "expression": "grel:\"http://wikidata.org/wiki/\"+cell.recon.match.id",
+    "expression": "grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "WIKIDATA_DISTRICT",
     "columnInsertIndex": 2,
-    "description": "Create column WIKIDATA_DISTRICT at index 2 based on column DISTRICT using expression grel:\"http://wikidata.org/wiki/\"+cell.recon.match.id"
+    "description": "Create column WIKIDATA_DISTRICT at index 2 based on column DISTRICT using expression grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id"
   },
   {
     "op": "core/recon",
@@ -143,10 +143,10 @@
       "mode": "row-based"
     },
     "baseColumnName": "NEIGHBOURHOOD",
-    "expression": "grel:\"http://wikidata.org/wiki/\"+cell.recon.match.id",
+    "expression": "grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id",
     "onError": "set-to-blank",
     "newColumnName": "WIKIDATA_NEIGHBOURHOOD",
     "columnInsertIndex": 6,
-    "description": "Create column WIKIDATA_NEIGHBOURHOOD at index 6 based on column NEIGHBOURHOOD using expression grel:\"http://wikidata.org/wiki/\"+cell.recon.match.id"
+    "description": "Create column WIKIDATA_NEIGHBOURHOOD at index 6 based on column NEIGHBOURHOOD using expression grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id"
   }
 ]
