@@ -10,7 +10,7 @@
 @prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix  regeneratedWater: <http://base.regeneratedwater.com/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#/> .
+
  <#purification_plant> a rr:TriplesMap;
     rml:logicalSource[
         rml:source "Calidad_AgRegenerada_2022-update.csv";
