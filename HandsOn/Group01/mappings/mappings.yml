@@ -60,7 +60,7 @@ mappings:
   Connector:
     sources:
       - [puntos-de-recarga-updated.csv~csv]
-    s: http://HO-G1.linkeddata.es/resource/Chargingstation/$(Charging Station)/Connector/$(Connector)
+    s: http://HO-G1.linkeddata.es/resource/Connector/$(Connector)
     po:
       - [a, ns:Connector]
       - [rdf:subClassOf, ns:Peripheral]
