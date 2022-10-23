@@ -25,13 +25,13 @@ map:map_TriplesMapBarrio_000 rml:logicalSource map:source_003 ;
 map:map_TriplesMapDistrito_000 rml:logicalSource map:source_004 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "TriplesMapDistrito" ;
-	rr:predicateObjectMap map:pom_040, map:pom_041, map:pom_042 ;
+	rr:predicateObjectMap map:pom_040, map:pom_041, map:pom_042, map:pom_043 ;
 	rr:subjectMap map:s_004 .
 
 map:map_TriplesMapLocalidad_000 rml:logicalSource map:source_005 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "TriplesMapLocalidad" ;
-	rr:predicateObjectMap map:pom_043, map:pom_044 ;
+	rr:predicateObjectMap map:pom_044, map:pom_045 ;
 	rr:subjectMap map:s_005 .
 
 map:map_TriplesMapTipoVia_000 rml:logicalSource map:source_002 ;
@@ -203,7 +203,7 @@ map:om_038 rml:reference "BARRIO" ;
 	rr:termType rr:Literal .
 
 map:om_039 rdf:type rr:ObjectMap ;
-	rr:template "http://madridturistsites.es/Distrito/{Distrito}" ;
+	rr:template "http://madridturistsites.es/Distrito/{DISTRITO}" ;
 	rr:termType rr:Literal .
 
 map:om_040 rdf:type rr:ObjectMap ;
@@ -218,11 +218,15 @@ map:om_042 rdf:type rr:ObjectMap ;
 	rr:template "http://madridturistsites.es/Localidad/{LOCALIDAD}" ;
 	rr:termType rr:Literal .
 
-map:om_043 rdf:type rr:ObjectMap ;
+map:om_043 rml:reference "CODIGO-POSTAL" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_044 rdf:type rr:ObjectMap ;
 	rr:constant "http://madridturistsites.es/Localidad" ;
 	rr:termType rr:IRI .
 
-map:om_044 rml:reference "LOCALIDAD" ;
+map:om_045 rml:reference "LOCALIDAD" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
@@ -356,9 +360,12 @@ map:pm_042 rdf:type rr:PredicateMap ;
 	rr:constant ns:perteneceA .
 
 map:pm_043 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant ns:codigoPostal .
 
 map:pm_044 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_045 rdf:type rr:PredicateMap ;
 	rr:constant ns:nombre .
 
 map:pom_000 rdf:type rr:PredicateObjectMap ;
@@ -541,6 +548,10 @@ map:pom_044 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_044 ;
 	rr:predicateMap map:pm_044 .
 
+map:pom_045 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_045 ;
+	rr:predicateMap map:pm_045 .
+
 map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_TriplesMapAllData_000, map:map_TriplesMapBarrio_000, map:map_TriplesMapDistrito_000, map:map_TriplesMapLocalidad_000, map:map_TriplesMapTipoVia_000, map:map_TriplesMapVia_000 ;
 	rdf:type <http://rdfs.org/ns/void#Dataset> .
 
@@ -563,27 +574,27 @@ map:s_005 rdf:type rr:SubjectMap ;
 	rr:template "http://madridturistsites.es/Localidad/{LOCALIDAD}" .
 
 map:source_000 rml:referenceFormulation ql:CSV ;
-	rml:source "data.csv" ;
+	rml:source "Monumento-ciudad-madrid-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_001 rml:referenceFormulation ql:CSV ;
-	rml:source "data.csv" ;
+	rml:source "Monumento-ciudad-madrid-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_002 rml:referenceFormulation ql:CSV ;
-	rml:source "data.csv" ;
+	rml:source "Monumento-ciudad-madrid-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_003 rml:referenceFormulation ql:CSV ;
-	rml:source "data.csv" ;
+	rml:source "Monumento-ciudad-madrid-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_004 rml:referenceFormulation ql:CSV ;
-	rml:source "data.csv" ;
+	rml:source "Monumento-ciudad-madrid-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_005 rml:referenceFormulation ql:CSV ;
-	rml:source "data.csv" ;
+	rml:source "Monumento-ciudad-madrid-updated.csv" ;
 	rdf:type rml:LogicalSource .
 
 
