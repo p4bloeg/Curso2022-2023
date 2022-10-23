@@ -39,7 +39,7 @@
 		rml:ReferenceFormulation ql:CSV
 		];
     rr:subjectMap [
-        rr:template "http://base.regeneratedwater.com/purification_plant/{district}";
+        rr:template "http://base.regeneratedwater.com/purification_plant/district/{district}";
         rr:termType rr:IRI; rr:class regeneratedWater:district
         ]; 
     rr:predicateObjectMap[
