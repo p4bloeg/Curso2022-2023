@@ -1,0 +1,25 @@
+PREFIX  xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX  rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX  ns:     <http://desfibriladores.com/ontology/desfibrilador/>
+PREFIX  owl:    <http://www.w3.org/2002/07/owl#/>
+
+# Codigo dea de los desfibriladores
+SELECT ?desfibrilador ?codigo_dea
+WHERE{
+    ?desfibrilador rdf:type <http://desfibriladores.com/ontology/Desfibrilador>
+    ?desfibrilador <http://desfibriladores.com/ontology/desfibrilador/hasCodigoDea> ?codigo_dea
+}
+# Desfibriladores con una dirección con puerta
+SELECT ?codigo_dea
+WHERE{
+    ?desfibrilador rdf:type <http://desfibriladores.com/ontology/Desfibrilador>
+    ?desfibrilador ns:hasCodigoDea ?codigo
+    ?desfibrilador ns:direccion_establecimiento ?direccion
+    ?direccion ns:hasPuertaDireccion ?puerta
+}
+# Equivalente en wikidata de los municipios
+SELECT ?municipio ?link
+WHERE{
+    ?municipio rdf:type ns:Municipio
+    ?municipio owl:sameAs ?same_as_wikidata_municipio
+}
