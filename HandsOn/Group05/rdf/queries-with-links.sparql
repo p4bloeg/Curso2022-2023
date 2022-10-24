@@ -1,1 +1,10 @@
-*
+SELECT DISTINCT ?distrito ?centro
+WHERE{
+    ?event em:seEncuentra ?centro .
+    ?centro em:perteneA ? distrito .
+} LIMIT 100
+
+SELECT DISTINCT ?event
+WHERE{
+    ?tiempo time:IntervaloTiempo ?event .
+} LIMIT 100
