@@ -44,8 +44,8 @@ mappings:
       - [ns:autor,ns:Autor/$(AUTOR 24)]
       - [ns:autor,ns:Autor/$(AUTOR 25)]
       - [ns:seEncuentraEn, ns:Vía/$(NOMBRE-VIA)~iri]
-      - [ns:tieneLatitud, $(LATITUD)]
-      - [ns:tieneLongitud, $(LONGITUD)]
+      - [ns:tieneLatitud, $(LATITUD),xsd:float]
+      - [ns:tieneLongitud, $(LONGITUD),xsd:float]
 
 
   TriplesMapVia:
