@@ -736,4 +736,3 @@ TYPE 2 22.00kW\r
 <http://HO-G1.linkeddata.es/resource/Peripheral/TYPE%202%C2%A07.40kW> a ns1:Peripheral .
 
 <http://HO-G1.linkeddata.es/resource/City/ALCOBENDAS> a ns1:City .
-
