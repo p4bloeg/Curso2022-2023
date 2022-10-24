@@ -59,19 +59,19 @@ schema:geo rdf:type owl:ObjectProperty ;
                 rdfs:range schema:GeoCoordinates .
 
 schema:address rdf:type owl:ObjectProperty ;
-                rdfs:domain ssn:CivicStructure ;
+                rdfs:domain schema:CivicStructure ;
                 rdfs:range xsd:string .
 
 ec:buildingType rdf:type owl:ObjectProperty ;
-                rdfs:domain ssn:CivicStructure ;
+                rdfs:domain schema:CivicStructure ;
                 rdfs:range xsd:string .
 
 ec:district rdf:type owl:ObjectProperty ;
-                rdfs:domain ssn:CivicStructure ;
+                rdfs:domain schema:CivicStructure ;
                 rdfs:range xsd:string .
 
 ec:neighborhood rdf:type owl:ObjectProperty ;
-                rdfs:domain ssn:CivicStructure ;
+                rdfs:domain schema:CivicStructure ;
                 rdfs:range xsd:string .
 
 #################################################################
