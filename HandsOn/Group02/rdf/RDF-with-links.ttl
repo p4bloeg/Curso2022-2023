@@ -1,4 +1,5 @@
 @prefix ns1: <http://smartcity.linkeddata.es/transport/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://smartcity.linkeddata.es/transport/data/bikeStation/10> a ns1:BikeStation ;
@@ -2382,7 +2383,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/21> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "1" ;
     ns1:st_number "S/N" ;
     ns1:street "CALLE CHULAPOS" .
@@ -2392,7 +2393,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/54> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "10" ;
     ns1:st_number "S/N" ;
     ns1:street "AVENIDA ALFONSO XIII" .
@@ -2402,7 +2403,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/46> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "11" ;
     ns1:st_number "74" ;
     ns1:street "CALLE VELÁZQUEZ" .
@@ -2412,7 +2413,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/46> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "12" ;
     ns1:st_number "52" ;
     ns1:street "PASEO CASTELLANA" .
@@ -2422,7 +2423,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/51> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "13" ;
     ns1:st_number "106" ;
     ns1:street "PASEO CASTELLANA" .
@@ -2432,7 +2433,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/54> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "14" ;
     ns1:st_number "160" ;
     ns1:street "PASEO CASTELLANA" .
@@ -2442,7 +2443,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/56> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "15" ;
     ns1:st_number "6" ;
     ns1:street "CALLE CARDENAL MARCELO SPÍNOLA" .
@@ -2452,7 +2453,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/72> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "16" ;
     ns1:st_number "42" ;
     ns1:street "CALLE FERNÁNDEZ DE LOS RÍOS" .
@@ -2462,7 +2463,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/72> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "17" ;
     ns1:st_number "S/N" ;
     ns1:street "PLAZA DEL CONDE DE VALLE DE" .
@@ -2472,7 +2473,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/73> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "18" ;
     ns1:st_number "16" ;
     ns1:street "CALLE MANUEL SILVELA" .
@@ -2482,7 +2483,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/55> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/ENDESA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Endesa> ;
     ns1:identifier "19" ;
     ns1:st_number "11" ;
     ns1:street "AVENIDA ALBERTO ALCOCER" .
@@ -2492,7 +2493,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/26> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "2" ;
     ns1:st_number "1" ;
     ns1:street "RONDA DE VALENCIA" .
@@ -2502,7 +2503,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/73> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "20" ;
     ns1:st_number "115" ;
     ns1:street "CALLE SANTA ENGRACIA" .
@@ -2512,7 +2513,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/74> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "21" ;
     ns1:st_number "33" ;
     ns1:street "PASEO CASTELLANA" .
@@ -2522,7 +2523,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/85> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "22" ;
     ns1:st_number "2" ;
     ns1:street "CALLE DE SINESIO DELGADO" .
@@ -2532,7 +2533,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/156> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "23" ;
     ns1:st_number "29" ;
     ns1:street "CALLE BUESO PINEDA" .
@@ -2552,7 +2553,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/55> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "25" ;
     ns1:st_number "4" ;
     ns1:street "CALLE MATEO INURRIA" .
@@ -2562,7 +2563,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/66> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "26" ;
     ns1:st_number "64" ;
     ns1:street "CALLE OFELIA NIETO" .
@@ -2572,7 +2573,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/86> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "27" ;
     ns1:st_number "8" ;
     ns1:street "CALLE DEL ABETAL" .
@@ -2582,7 +2583,7 @@
     ns1:conector_info "50 KW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/93> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "28" ;
     ns1:st_number "S/N" ;
     ns1:street "CRED HIPODROMOCR" .
@@ -2592,7 +2593,7 @@
     ns1:conector_info "50 KW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/96> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "29" ;
     ns1:st_number "34" ;
     ns1:street "A6 - AVENIDA VICTORIA 34 (CRED EL PLANTIO)" .
@@ -2602,7 +2603,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/32> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "3" ;
     ns1:st_number "4" ;
     ns1:street "CALLE CERRO DE LA PLATA" .
@@ -2612,7 +2613,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/106> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "30" ;
     ns1:st_number "S/N" ;
     ns1:street "CRED A5 PK 9" .
@@ -2622,7 +2623,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/106> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "31" ;
     ns1:st_number "6" ;
     ns1:street "AVENIDA DE LA PESETA" .
@@ -2642,7 +2643,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/134> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/ECOLINERAS> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Ecolineras> ;
     ns1:identifier "33" ;
     ns1:st_number "319" ;
     ns1:street "AVENIDA DE LA ALBUFERA" .
@@ -2652,7 +2653,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/166> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/IBERDROLA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Iberdrola> ;
     ns1:identifier "34" ;
     ns1:st_number "15" ;
     ns1:street "AVENIDA MARÍA DE PORTUGAL" .
@@ -2662,7 +2663,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/173> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "35" ;
     ns1:st_number "147" ;
     ns1:street "AVDA. DE LOS ROSALES" .
@@ -2672,7 +2673,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/183> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "36" ;
     ns1:st_number "74" ;
     ns1:street "AVENIDA REAL DE ARGANDA" .
@@ -2682,7 +2683,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/206> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "37" ;
     ns1:st_number "S/N" ;
     ns1:street "BARAJAS II A2 KM 12" .
@@ -2692,7 +2693,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/16> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/EMT> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> ;
     ns1:identifier "38" ;
     ns1:st_number "6" ;
     ns1:street "PLAZA DE JACINTO BENAVENTE" .
@@ -2702,7 +2703,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/41> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/EMT> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> ;
     ns1:identifier "39" ;
     ns1:st_number "S/N" ;
     ns1:street "JARDINES DEL DESCUBRIMIENTO - ACCESO A COMPLEJO DE APARCAMIENTOS SUBTERRÁNEOS POR CALLE DE LA ARMADA" .
@@ -2712,7 +2713,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/35> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "4" ;
     ns1:st_number "2" ;
     ns1:street "CALLE ALFONSO XII" .
@@ -2722,7 +2723,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/45> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/EMT> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> ;
     ns1:identifier "40" ;
     ns1:st_number "S/N" ;
     ns1:street "PLAZA DE MARQUÉS DE" .
@@ -2732,7 +2733,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/56> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/EMT> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> ;
     ns1:identifier "41" ;
     ns1:st_number "36" ;
     ns1:street "CALLE HIEDRA" .
@@ -2752,7 +2753,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/15> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "43" ;
     ns1:st_number "9" ;
     ns1:street "CALLE ALBERTO AGUILERA" .
@@ -2772,7 +2773,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/88> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/IBERDROLA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Iberdrola> ;
     ns1:identifier "45" ;
     ns1:st_number "20" ;
     ns1:street "CALLE DEL MONASTERIO DE ARLANZA" .
@@ -2782,7 +2783,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/163> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "46" ;
     ns1:st_number "105" ;
     ns1:street "AVENIDA DE MACHUPICHU" .
@@ -2792,7 +2793,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/166> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC-GALP> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Galp%20Energia> ;
     ns1:identifier "47" ;
     ns1:st_number "20" ;
     ns1:street "AVENIDA DE NICETO ALCALA ZAMORA" .
@@ -2802,7 +2803,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/181> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/NATURGY> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/naturgy> ;
     ns1:identifier "48" ;
     ns1:st_number "7" ;
     ns1:street "AVENIDA EJE CENTRAL" .
@@ -2812,7 +2813,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/181> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "49" ;
     ns1:st_number "278" ;
     ns1:street "CARRETERA DE VILLAVERDE A VALLECAS" .
@@ -2822,7 +2823,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/41> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "5" ;
     ns1:st_number "36" ;
     ns1:street "CALLE GOYA" .
@@ -2832,7 +2833,7 @@
     ns1:conector_info "350 kW conector CC (CCS)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/215> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC-CEPSA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Spanish%20Petroleum%20Company> ;
     ns1:identifier "50" ;
     ns1:st_number "2" ;
     ns1:street "AVENIDA DEL CONSEJO DE EUROPA" .
@@ -2842,7 +2843,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/215> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/IBERDROLA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Iberdrola> ;
     ns1:identifier "51" ;
     ns1:st_number "5" ;
     ns1:street "AVENIDA DEL PARTENÓN" .
@@ -2872,7 +2873,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Mercamadrid> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/181> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "54" ;
     ns1:street "CALLE 3" .
 
@@ -2881,7 +2882,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/34> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "55" ;
     ns1:st_number "1" ;
     ns1:street "CALLE IBIZA" .
@@ -2891,7 +2892,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/35> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "56" ;
     ns1:st_number "S/N" ;
     ns1:street "PLAZA DE LA LEALTAD" .
@@ -2901,7 +2902,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/116> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/ENDESA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Endesa> ;
     ns1:identifier "57" ;
     ns1:st_number "20" ;
     ns1:street "CALLE HILARIO HERRANZ ESTABLOS" .
@@ -2911,7 +2912,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/92> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/ENDESA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Endesa> ;
     ns1:identifier "58" ;
     ns1:st_number "27" ;
     ns1:street "CALLE MARQUÉS DE URQUIJO" .
@@ -2921,7 +2922,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/171> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/IBERDROLA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Iberdrola> ;
     ns1:identifier "59" ;
     ns1:st_number "24" ;
     ns1:street "CALLE VALLE DE TOBALINA" .
@@ -2931,7 +2932,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/42> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "6" ;
     ns1:st_number "123" ;
     ns1:street "CALLE GOYA" .
@@ -2951,7 +2952,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/122> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/ENDESA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Endesa> ;
     ns1:identifier "61" ;
     ns1:st_number "2" ;
     ns1:street "CALLE DE EDUARDO BARREIROS" .
@@ -2961,7 +2962,7 @@
     ns1:conector_info "50 KW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/122> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "62" ;
     ns1:st_number "S/N" ;
     ns1:street "A4" .
@@ -2971,7 +2972,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/165> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/NATURGY> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/naturgy> ;
     ns1:identifier "63" ;
     ns1:st_number "77" ;
     ns1:street "AVENIDA DE SAN LUIS" .
@@ -2990,7 +2991,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/157> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "65" ;
     ns1:st_number "175" ;
     ns1:street "CALLE ARTURO SORIA" .
@@ -3000,7 +3001,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/155> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/ENDESA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Endesa> ;
     ns1:identifier "66" ;
     ns1:st_number "5" ;
     ns1:street "CALLE VERDAGUER Y GARCIA" .
@@ -3010,7 +3011,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/143> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "67" ;
     ns1:st_number "S/N" ;
     ns1:street "GLORIETA CORREGIDOR SANCHO DE CÓRDOBA" .
@@ -3020,7 +3021,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/201> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/REPSOL> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Repsol> ;
     ns1:identifier "68" ;
     ns1:st_number "510" ;
     ns1:street "CALLE ALCALÁ" .
@@ -3030,7 +3031,7 @@
     ns1:conector_info "50 KW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/183> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/ENDESA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Endesa> ;
     ns1:identifier "69" ;
     ns1:st_number "S/N" ;
     ns1:street "CALLE ALTO DEL RETIRO" .
@@ -3040,7 +3041,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/46> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "7" ;
     ns1:st_number "105" ;
     ns1:street "CALLE CASTELLÓ" .
@@ -3050,7 +3051,7 @@
     ns1:conector_info "50 KW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/206> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/NATURGY> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/naturgy> ;
     ns1:identifier "70" ;
     ns1:st_number "10" ;
     ns1:street "CALLE DEYANIRA" .
@@ -3060,7 +3061,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/206> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/IBERDROLA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Iberdrola> ;
     ns1:identifier "71" ;
     ns1:st_number "5" ;
     ns1:street "CALLE NANCLARES DE OCA" .
@@ -3070,7 +3071,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/181> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/NATURGY> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/naturgy> ;
     ns1:identifier "72" ;
     ns1:st_number "7" ;
     ns1:street "AVENIDA EJE CENTRAL" .
@@ -3080,7 +3081,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/V%C3%ADa%20p%C3%BAblica> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/14> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/GIC> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> ;
     ns1:identifier "73" ;
     ns1:st_number "24" ;
     ns1:street "CALLE GÉNOVA" .
@@ -3090,7 +3091,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/64> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/IBERDROLA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Iberdrola> ;
     ns1:identifier "74" ;
     ns1:st_number "S/N" ;
     ns1:street "CALLE SAN AQUILINO" .
@@ -3100,7 +3101,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo)" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/52> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/IBERDROLA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Iberdrola> ;
     ns1:identifier "75" ;
     ns1:st_number "9" ;
     ns1:street "AVENIDA DE AMÉRICA" .
@@ -3128,7 +3129,7 @@
     ns1:conector_info "50 kW 2 conectores CC (CCS/Chademo) y 1 conector AC modo 2 Mennekes" ;
     ns1:hasLocation <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> ;
     ns1:hasNeighbourhood <http://smartcity.linkeddata.es/transport/data/neighbourhood/44> ;
-    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/ENDESA> ;
+    ns1:hasOperator <http://smartcity.linkeddata.es/transport/data/operator/Endesa> ;
     ns1:identifier "8" ;
     ns1:st_number "S/N" ;
     ns1:street "PLAZA DE SAN CAYETANO" .
@@ -3144,526 +3145,635 @@
     ns1:street "CALLE SINFONIA" .
 
 <http://smartcity.linkeddata.es/transport/data/district/21> a ns1:District ;
-    ns1:name_id "BARAJAS" ;
-    ns1:number_id 21 .
+    ns1:name_id "Barajas" ;
+    ns1:number_id 21 ;
+    owl:sameAs <https://wikidata.org/wiki/Q807230> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/101> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/10> ;
-    ns1:name_id "CÁRMENES" ;
-    ns1:number_id 101 .
+    ns1:name_id "Los Cármenes" ;
+    ns1:number_id 101 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10319792> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/107> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/10> ;
-    ns1:name_id "ÁGUILAS" ;
-    ns1:number_id 107 .
+    ns1:name_id "Las Águilas" ;
+    ns1:number_id 107 ;
+    owl:sameAs <https://wikidata.org/wiki/Q5971372> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/111> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/11> ;
-    ns1:name_id "COMILLA" ;
-    ns1:number_id 111 .
+    ns1:name_id "Comillas" ;
+    ns1:number_id 111 ;
+    owl:sameAs <https://wikidata.org/wiki/Q955844> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/113> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/11> ;
-    ns1:name_id "SAN ISIDRO" ;
-    ns1:number_id 113 .
+    ns1:name_id "San Isidro" ;
+    ns1:number_id 113 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3813733> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/116> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/11> ;
-    ns1:name_id "BUENAVISTA" ;
-    ns1:number_id 116 .
+    ns1:name_id "Buenavista" ;
+    ns1:number_id 116 ;
+    owl:sameAs <https://wikidata.org/wiki/Q953929> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/134> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/13> ;
-    ns1:name_id "PALOMERAS SURESTE" ;
-    ns1:number_id 134 .
+    ns1:name_id "Palomeras Sureste" ;
+    ns1:number_id 134 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10343901> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/141> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/14> ;
-    ns1:name_id "PAVONES" ;
-    ns1:number_id 141 .
+    ns1:name_id "Pavones" ;
+    ns1:number_id 141 ;
+    owl:sameAs <https://wikidata.org/wiki/Q71760> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/152> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
-    ns1:name_id "PUEBLO NUEVO" ;
-    ns1:number_id 152 .
+    ns1:name_id "Pueblo Nuevo" ;
+    ns1:number_id 152 ;
+    owl:sameAs <https://wikidata.org/wiki/Q71753> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/156> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
-    ns1:name_id "SAN JUAN BAUTISTA" ;
-    ns1:number_id 156 .
+    ns1:name_id "San Juan Bautista" ;
+    ns1:number_id 156 ;
+    owl:sameAs <https://wikidata.org/wiki/Q165609> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/157> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
-    ns1:name_id "COLINA" ;
-    ns1:number_id 157 .
+    ns1:name_id "Colina" ;
+    ns1:number_id 157 ;
+    owl:sameAs <https://wikidata.org/wiki/Q18475981> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/163> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/16> ;
-    ns1:name_id "CANILLAS" ;
-    ns1:number_id 163 .
+    ns1:name_id "Canillas" ;
+    ns1:number_id 163 ;
+    owl:sameAs <https://wikidata.org/wiki/Q9694341> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/165> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/16> ;
-    ns1:name_id "APOSTOL SANTIAGO" ;
-    ns1:number_id 165 .
+    ns1:name_id "Apóstol Santiago" ;
+    ns1:number_id 165 ;
+    owl:sameAs <https://wikidata.org/wiki/Q11906303> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/171> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/17> ;
-    ns1:name_id "VILLAVERDE ALTO, CASCO HISTÓRICO DE VILLAVERDE" ;
-    ns1:number_id 171 .
+    ns1:name_id "Villaverde Alto, Casco Histórico de Villaverde" ;
+    ns1:number_id 171 ;
+    owl:sameAs <https://wikidata.org/wiki/Q390435> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/173> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/17> ;
-    ns1:name_id "BUTARQUE" ;
-    ns1:number_id 173 .
+    ns1:name_id "Butarque" ;
+    ns1:number_id 173 ;
+    owl:sameAs <https://wikidata.org/wiki/Q390453> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/201> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/20> ;
-    ns1:name_id "SIMANCAS" ;
-    ns1:number_id 201 .
+    ns1:name_id "Simancas" ;
+    ns1:number_id 201 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10371626> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/24> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
-    ns1:name_id "LEGAZPI" ;
-    ns1:number_id 24 .
+    ns1:name_id "Legazpi" ;
+    ns1:number_id 24 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773990> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/53> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
-    ns1:name_id "CIUDAD JARDÍN" ;
-    ns1:number_id 53 .
+    ns1:name_id "Ciudad Jardín" ;
+    ns1:number_id 53 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773744> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/63> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
-    ns1:name_id "CASTILLEJOS" ;
-    ns1:number_id 63 .
+    ns1:name_id "Castillejos" ;
+    ns1:number_id 63 ;
+    owl:sameAs <https://wikidata.org/wiki/Q11913212> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/64> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
-    ns1:name_id "ALMENARA" ;
-    ns1:number_id 64 .
+    ns1:name_id "Almenara" ;
+    ns1:number_id 64 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2265427> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/65> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
-    ns1:name_id "VALDEACEDERAS" ;
-    ns1:number_id 65 .
+    ns1:name_id "Valdeacederas" ;
+    ns1:number_id 65 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10388711> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/86> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/8> ;
-    ns1:name_id "VALVERDE" ;
-    ns1:number_id 86 .
+    ns1:name_id "Valverde" ;
+    ns1:number_id 86 ;
+    owl:sameAs <https://wikidata.org/wiki/Q31132> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/88> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/8> ;
-    ns1:name_id "EL GOLOSO" ;
-    ns1:number_id 88 .
+    ns1:name_id "El Goloso" ;
+    ns1:number_id 88 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10271137> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/96> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/9> ;
-    ns1:name_id "EL PLANTÍO" ;
-    ns1:number_id 96 .
+    ns1:name_id "El Plantío" ;
+    ns1:number_id 96 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773742> .
 
-<http://smartcity.linkeddata.es/transport/data/operator/ECOLINERAS> a ns1:Operator ;
-    ns1:name_id "ECOLINERAS" .
+<http://smartcity.linkeddata.es/transport/data/operator/Ecolineras> a ns1:Operator ;
+    ns1:name_id "Ecolineras" ;
+    owl:sameAs <https://wikidata.org/wiki/Q114758119> .
 
-<http://smartcity.linkeddata.es/transport/data/operator/GIC-CEPSA> a ns1:Operator ;
-    ns1:name_id "GIC-CEPSA" .
+<http://smartcity.linkeddata.es/transport/data/operator/Galp%20Energia> a ns1:Operator ;
+    ns1:name_id "Galp Energia" ;
+    owl:sameAs <https://wikidata.org/wiki/Q1492739> .
 
-<http://smartcity.linkeddata.es/transport/data/operator/GIC-GALP> a ns1:Operator ;
-    ns1:name_id "GIC-GALP" .
+<http://smartcity.linkeddata.es/transport/data/operator/Spanish%20Petroleum%20Company> a ns1:Operator ;
+    ns1:name_id "Spanish Petroleum Company" ;
+    owl:sameAs <https://wikidata.org/wiki/Q608819> .
 
 <http://smartcity.linkeddata.es/transport/data/district/12> a ns1:District ;
-    ns1:name_id "USERA" ;
-    ns1:number_id 12 .
+    ns1:name_id "Usera" ;
+    ns1:number_id 12 ;
+    owl:sameAs <https://wikidata.org/wiki/Q953368> .
 
 <http://smartcity.linkeddata.es/transport/data/district/17> a ns1:District ;
-    ns1:name_id "VILLAVERDE" ;
-    ns1:number_id 17 .
+    ns1:name_id "Villaverde" ;
+    ns1:number_id 17 ;
+    owl:sameAs <https://wikidata.org/wiki/Q919536> .
 
 <http://smartcity.linkeddata.es/transport/data/district/20> a ns1:District ;
-    ns1:name_id "SAN BLAS - CANILLEJAS" ;
-    ns1:number_id 20 .
+    ns1:name_id "San Blas" ;
+    ns1:number_id 20 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2001937> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/102> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/10> ;
-    ns1:name_id "PUERTA DEL ÁNGEL" ;
-    ns1:number_id 102 .
+    ns1:name_id "Barrio de Puerta del Ángel" ;
+    ns1:number_id 102 ;
+    owl:sameAs <https://wikidata.org/wiki/Q31142> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/122> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/12> ;
-    ns1:name_id "ORCASUR" ;
-    ns1:number_id 122 .
+    ns1:name_id "Orcasur" ;
+    ns1:number_id 122 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10341270> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/125> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/12> ;
-    ns1:name_id "MOSCARDÓ" ;
-    ns1:number_id 125 .
+    ns1:name_id "Moscardó" ;
+    ns1:number_id 125 ;
+    owl:sameAs <https://wikidata.org/wiki/Q11937679> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/132> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/13> ;
-    ns1:name_id "SAN DIEGO" ;
-    ns1:number_id 132 .
+    ns1:name_id "San Diego" ;
+    ns1:number_id 132 ;
+    owl:sameAs <https://wikidata.org/wiki/Q11946851> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/136> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/13> ;
-    ns1:name_id "NUMANCIA" ;
-    ns1:number_id 136 .
+    ns1:name_id "Numancia" ;
+    ns1:number_id 136 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10338144> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/143> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/14> ;
-    ns1:name_id "MARROQUINA" ;
-    ns1:number_id 143 .
+    ns1:name_id "Marroquina" ;
+    ns1:number_id 143 ;
+    owl:sameAs <https://wikidata.org/wiki/Q11935636> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/144> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/14> ;
-    ns1:name_id "MEDIA LEGUA" ;
-    ns1:number_id 144 .
+    ns1:name_id "Media Legua" ;
+    ns1:number_id 144 ;
+    owl:sameAs <https://wikidata.org/wiki/Q9031035> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/154> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
-    ns1:name_id "CONCEPCIÓN" ;
-    ns1:number_id 154 .
+    ns1:name_id "Concepción" ;
+    ns1:number_id 154 ;
+    owl:sameAs <https://wikidata.org/wiki/Q11915156> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/166> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/16> ;
-    ns1:name_id "VALDEFUENTES" ;
-    ns1:number_id 166 .
+    ns1:name_id "Valdefuentes" ;
+    ns1:number_id 166 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10388714> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/1818> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/18> ;
-    ns1:name_id "CASCO HISTÓRICO DE VALLECAS" ;
-    ns1:number_id 1818 .
+    ns1:name_id "Casco Histórico de Vallecas" ;
+    ns1:number_id 1818 ;
+    owl:sameAs <https://wikidata.org/wiki/Q16544370> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/183> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/18> ;
-    ns1:name_id "ENSANCHE DE VALLECAS" ;
-    ns1:number_id 183 .
+    ns1:name_id "Ensanche de Vallecas" ;
+    ns1:number_id 183 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3847485> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/215> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/21> ;
-    ns1:name_id "CORRALEJOS" ;
-    ns1:number_id 215 .
+    ns1:name_id "Corralejos" ;
+    ns1:number_id 215 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10260772> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/23> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
-    ns1:name_id "CHOPERA" ;
-    ns1:number_id 23 .
+    ns1:name_id "La Chopera" ;
+    ns1:number_id 23 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773750> .
 
 <http://smartcity.linkeddata.es/transport/data/district/11> a ns1:District ;
-    ns1:name_id "CARABANCHEL" ;
-    ns1:number_id 11 .
+    ns1:name_id "Carabanchel" ;
+    ns1:number_id 11 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1001991> .
 
 <http://smartcity.linkeddata.es/transport/data/district/13> a ns1:District ;
-    ns1:name_id "PUENTE DE VALLECAS" ;
-    ns1:number_id 13 .
+    ns1:name_id "Puente de Vallecas" ;
+    ns1:number_id 13 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2003054> .
 
 <http://smartcity.linkeddata.es/transport/data/district/14> a ns1:District ;
-    ns1:name_id "MORATALAZ" ;
-    ns1:number_id 14 .
+    ns1:name_id "Moratalaz" ;
+    ns1:number_id 14 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2076109> .
 
 <http://smartcity.linkeddata.es/transport/data/district/16> a ns1:District ;
-    ns1:name_id "HORTALEZA" ;
-    ns1:number_id 16 .
+    ns1:name_id "Hortaleza" ;
+    ns1:number_id 16 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1928529> .
 
 <http://smartcity.linkeddata.es/transport/data/district/18> a ns1:District ;
-    ns1:name_id "VILLA DE VALLECAS" ;
-    ns1:number_id 18 .
+    ns1:name_id "Villa de Vallecas" ;
+    ns1:number_id 18 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1947988> .
 
 <http://smartcity.linkeddata.es/transport/data/district/8> a ns1:District ;
-    ns1:name_id "FUENCARRAL - EL PARDO",
-        "FUENCARRAL-EL PARDO" ;
-    ns1:number_id 8 .
+    ns1:name_id "Fuencarral-El Pardo" ;
+    ns1:number_id 8 ;
+    owl:sameAs <https://wikidata.org/wiki/Q656196> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/106> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/10> ;
-    ns1:name_id "CUATRO VIENTOS" ;
-    ns1:number_id 106 .
+    ns1:name_id "Cuatro Vientos" ;
+    ns1:number_id 106 ;
+    owl:sameAs <https://wikidata.org/wiki/Q5191881> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/206> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/20> ;
-    ns1:name_id "REJAS" ;
-    ns1:number_id 206 .
+    ns1:name_id "Rejas" ;
+    ns1:number_id 206 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10359029> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/21> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
-    ns1:name_id "IMPERIAL" ;
-    ns1:number_id 21 .
+    ns1:name_id "Imperial" ;
+    ns1:number_id 21 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773740> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/31> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
-    ns1:name_id "PACÍFICO" ;
-    ns1:number_id 31 .
+    ns1:name_id "Pacífico" ;
+    ns1:number_id 31 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773753> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/33> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
-    ns1:name_id "ESTRELLA" ;
-    ns1:number_id 33 .
+    ns1:name_id "Estrella" ;
+    ns1:number_id 33 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773738> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/43> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
-    ns1:name_id "FUENTE DEL BERRO" ;
-    ns1:number_id 43 .
+    ns1:name_id "Fuente del Berro" ;
+    ns1:number_id 43 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3814564> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/52> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
-    ns1:name_id "PROSPERIDAD" ;
-    ns1:number_id 52 .
+    ns1:name_id "Prosperidad" ;
+    ns1:number_id 52 ;
+    owl:sameAs <https://wikidata.org/wiki/Q4776> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/61> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
-    ns1:name_id "BELLAS VISTAS" ;
-    ns1:number_id 61 .
+    ns1:name_id "Bellas Vistas" ;
+    ns1:number_id 61 ;
+    owl:sameAs <https://wikidata.org/wiki/Q11908929> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/66> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
-    ns1:name_id "BERRUGUETE" ;
-    ns1:number_id 66 .
+    ns1:name_id "Berruguete" ;
+    ns1:number_id 66 ;
+    owl:sameAs <https://wikidata.org/wiki/Q11909208> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/76> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
-    ns1:name_id "VALLEHERMOSO" ;
-    ns1:number_id 76 .
+    ns1:name_id "Vallehermoso" ;
+    ns1:number_id 76 ;
+    owl:sameAs <https://wikidata.org/wiki/Q6122685> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/85> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/8> ;
-    ns1:name_id "LA PAZ" ;
-    ns1:number_id 85 .
+    ns1:name_id "La Paz" ;
+    ns1:number_id 85 ;
+    owl:sameAs <https://wikidata.org/wiki/Q5869740> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/91> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/9> ;
-    ns1:name_id "CASA DE CAMPO" ;
-    ns1:number_id 91 .
+    ns1:name_id "Casa de Campo" ;
+    ns1:number_id 91 ;
+    owl:sameAs <https://wikidata.org/wiki/Q16302441> .
 
 <http://smartcity.linkeddata.es/transport/data/district/10> a ns1:District ;
-    ns1:name_id "LATINA" ;
-    ns1:number_id 10 .
+    ns1:name_id "Latina" ;
+    ns1:number_id 10 ;
+    owl:sameAs <https://wikidata.org/wiki/Q794954> .
 
 <http://smartcity.linkeddata.es/transport/data/district/9> a ns1:District ;
-    ns1:name_id "MONCLOA - ARAVACA",
-        "MONCLOA-ARAVACA" ;
-    ns1:number_id 9 .
+    ns1:name_id "Moncloa-Aravaca" ;
+    ns1:number_id 9 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2017682> .
 
 <http://smartcity.linkeddata.es/transport/data/location/Mercamadrid> a ns1:Location ;
     ns1:name_id "Mercamadrid" .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/151> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
-    ns1:name_id "VENTAS" ;
-    ns1:number_id 151 .
+    ns1:name_id "Ventas" ;
+    ns1:number_id 151 ;
+    owl:sameAs <https://wikidata.org/wiki/Q71762> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/155> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/15> ;
-    ns1:name_id "SAN PASCUAL" ;
-    ns1:number_id 155 .
+    ns1:name_id "San Pascual" ;
+    ns1:number_id 155 ;
+    owl:sameAs <https://wikidata.org/wiki/Q165612> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/25> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
-    ns1:name_id "DELICIAS" ;
-    ns1:number_id 25 .
+    ns1:name_id "Las Delicias" ;
+    ns1:number_id 25 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773736> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/27> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
-    ns1:name_id "ATOCHA" ;
-    ns1:number_id 27 .
+    ns1:name_id "Atocha" ;
+    ns1:number_id 27 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3814594> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/32> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
-    ns1:name_id "ADELFAS" ;
-    ns1:number_id 32 .
+    ns1:name_id "Adelfas" ;
+    ns1:number_id 32 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3774001> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/36> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
-    ns1:name_id "NIÑO JESÚS" ;
-    ns1:number_id 36 .
+    ns1:name_id "Niño Jesús" ;
+    ns1:number_id 36 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3773746> .
 
-<http://smartcity.linkeddata.es/transport/data/operator/EMT> a ns1:Operator ;
-    ns1:name_id "EMT" .
+<http://smartcity.linkeddata.es/transport/data/operator/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> a ns1:Operator ;
+    ns1:name_id "Empresa Municipal de Transportes de Madrid" ;
+    owl:sameAs <https://wikidata.org/wiki/Q1094755> .
 
-<http://smartcity.linkeddata.es/transport/data/operator/NATURGY> a ns1:Operator ;
-    ns1:name_id "NATURGY" .
+<http://smartcity.linkeddata.es/transport/data/operator/naturgy> a ns1:Operator ;
+    ns1:name_id "naturgy" ;
+    owl:sameAs <https://wikidata.org/wiki/Q474690> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/34> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
-    ns1:name_id "IBIZA" ;
-    ns1:number_id 34 .
+    ns1:name_id "Ibiza" ;
+    ns1:number_id 34 ;
+    owl:sameAs <https://wikidata.org/wiki/Q15249910> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/45> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
-    ns1:name_id "LISTA" ;
-    ns1:number_id 45 .
+    ns1:name_id "Lista" ;
+    ns1:number_id 45 ;
+    owl:sameAs <https://wikidata.org/wiki/Q4779> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/56> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
-    ns1:name_id "CASTILLA" ;
-    ns1:number_id 56 .
+    ns1:name_id "Castilla" ;
+    ns1:number_id 56 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3813735> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/71> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
-    ns1:name_id "GAZTAMBIDE" ;
-    ns1:number_id 71 .
+    ns1:name_id "Gaztambide" ;
+    ns1:number_id 71 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10288587> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/73> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
-    ns1:name_id "TRAFALGAR" ;
-    ns1:number_id 73 .
+    ns1:name_id "Trafalgar" ;
+    ns1:number_id 73 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10384027> .
 
 <http://smartcity.linkeddata.es/transport/data/district/1> a ns1:District ;
-    ns1:name_id "CENTRO" ;
-    ns1:number_id 1 .
+    ns1:name_id "Centro" ;
+    ns1:number_id 1 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1763376> .
 
 <http://smartcity.linkeddata.es/transport/data/district/15> a ns1:District ;
-    ns1:name_id "CIUDAD LINEAL" ;
-    ns1:number_id 15 .
+    ns1:name_id "Ciudad Lineal" ;
+    ns1:number_id 15 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1763694> .
 
 <http://smartcity.linkeddata.es/transport/data/district/3> a ns1:District ;
-    ns1:name_id "RETIRO" ;
-    ns1:number_id 3 .
+    ns1:name_id "Retiro" ;
+    ns1:number_id 3 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2002296> .
 
 <http://smartcity.linkeddata.es/transport/data/district/4> a ns1:District ;
-    ns1:name_id "SALAMANCA" ;
-    ns1:number_id 4 .
+    ns1:name_id "Salamanca" ;
+    ns1:number_id 4 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1773521> .
 
 <http://smartcity.linkeddata.es/transport/data/district/5> a ns1:District ;
-    ns1:name_id "CHAMARTÍN" ;
-    ns1:number_id 5 .
+    ns1:name_id "Chamartín" ;
+    ns1:number_id 5 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1766348> .
 
 <http://smartcity.linkeddata.es/transport/data/district/6> a ns1:District ;
-    ns1:name_id "TETUÁN" ;
-    ns1:number_id 6 .
+    ns1:name_id "Tetuán" ;
+    ns1:number_id 6 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1773540> .
 
 <http://smartcity.linkeddata.es/transport/data/district/7> a ns1:District ;
-    ns1:name_id "CHAMBERÍ" ;
-    ns1:number_id 7 .
+    ns1:name_id "Chamberí" ;
+    ns1:number_id 7 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1763370> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/26> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
-    ns1:name_id "PALOS DE MOGUER" ;
-    ns1:number_id 26 .
+    ns1:name_id "Palos de la Frontera" ;
+    ns1:number_id 26 ;
+    owl:sameAs <https://wikidata.org/wiki/Q521009> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/54> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
-    ns1:name_id "HISPANOAMÉRICA" ;
-    ns1:number_id 54 .
+    ns1:name_id "Hispanoamérica" ;
+    ns1:number_id 54 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3814573> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/55> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
-    ns1:name_id "NUEVA ESPAÑA" ;
-    ns1:number_id 55 .
+    ns1:name_id "Nueva España" ;
+    ns1:number_id 55 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10338128> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/72> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
-    ns1:name_id "ARAPILES" ;
-    ns1:number_id 72 .
+    ns1:name_id "Arapiles" ;
+    ns1:number_id 72 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10856744> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/74> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
-    ns1:name_id "ALMAGRO" ;
-    ns1:number_id 74 .
+    ns1:name_id "Almagro" ;
+    ns1:number_id 74 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10954432> .
 
 <http://smartcity.linkeddata.es/transport/data/district/2> a ns1:District ;
-    ns1:name_id "ARGANZUELA" ;
-    ns1:number_id 2 .
+    ns1:name_id "Arganzuela" ;
+    ns1:number_id 2 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2000929> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/13> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
-    ns1:name_id "CORTES" ;
-    ns1:number_id 13 .
+    ns1:name_id "Cortes" ;
+    ns1:number_id 13 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2535637> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/181> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/18> ;
-    ns1:name_id "CASCO HISTÓRICO DE VALLECAS" ;
-    ns1:number_id 181 .
+    ns1:name_id "Casco Histórico de Vallecas" ;
+    ns1:number_id 181 ;
+    owl:sameAs <https://wikidata.org/wiki/Q16544370> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/93> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/9> ;
-    ns1:name_id "CIUDAD UNIVERSITARIA" ;
-    ns1:number_id 93 .
+    ns1:name_id "Ciudad Universitaria" ;
+    ns1:number_id 93 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3319235> .
 
-<http://smartcity.linkeddata.es/transport/data/operator/ENDESA> a ns1:Operator ;
-    ns1:name_id "ENDESA" .
+<http://smartcity.linkeddata.es/transport/data/operator/Endesa> a ns1:Operator ;
+    ns1:name_id "Endesa" ;
+    owl:sameAs <https://wikidata.org/wiki/Q1275336> .
 
-<http://smartcity.linkeddata.es/transport/data/operator/IBERDROLA> a ns1:Operator ;
-    ns1:name_id "IBERDROLA" .
+<http://smartcity.linkeddata.es/transport/data/operator/Iberdrola> a ns1:Operator ;
+    ns1:name_id "Iberdrola" ;
+    owl:sameAs <https://wikidata.org/wiki/Q1437502> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/22> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/2> ;
-    ns1:name_id "ACACIAS" ;
-    ns1:number_id 22 .
+    ns1:name_id "Las Acacias" ;
+    ns1:number_id 22 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3319190> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/46> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
-    ns1:name_id "CASTELLANA" ;
-    ns1:number_id 46 .
+    ns1:name_id "Castellana" ;
+    ns1:number_id 46 ;
+    owl:sameAs <https://wikidata.org/wiki/Q4781> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/62> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/6> ;
-    ns1:name_id "CUATRO CAMINOS" ;
-    ns1:number_id 62 .
+    ns1:name_id "Cuatro Caminos" ;
+    ns1:number_id 62 ;
+    owl:sameAs <https://wikidata.org/wiki/Q5824684> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/92> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/9> ;
-    ns1:name_id "ARGÜELLES" ;
-    ns1:number_id 92 .
+    ns1:name_id "Argüelles" ;
+    ns1:number_id 92 ;
+    owl:sameAs <https://wikidata.org/wiki/Q64874> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/44> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
-    ns1:name_id "GUINDALERA" ;
-    ns1:number_id 44 .
+    ns1:name_id "La Guindalera" ;
+    ns1:number_id 44 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3814559> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/75> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/7> ;
-    ns1:name_id "RÍOS ROSAS" ;
-    ns1:number_id 75 .
+    ns1:name_id "Ríos Rosas" ;
+    ns1:number_id 75 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10366270> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/42> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
-    ns1:name_id "GOYA" ;
-    ns1:number_id 42 .
+    ns1:name_id "Goya" ;
+    ns1:number_id 42 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3814578> .
 
 <http://smartcity.linkeddata.es/transport/data/operator/DRIVE%20THE%20CITY> a ns1:Operator ;
-    ns1:name_id "DRIVE THE CITY" .
+    ns1:name_id "DRIVE THE CITY" ;
+    owl:sameAs <https://wikidata.org/wiki/Q114758003> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/12> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
-    ns1:name_id "EMBAJADORES" ;
-    ns1:number_id 12 .
+    ns1:name_id "Embajadores" ;
+    ns1:number_id 12 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2449844> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/14> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
-    ns1:name_id "JUSTICIA" ;
-    ns1:number_id 14 .
+    ns1:name_id "Justicia" ;
+    ns1:number_id 14 ;
+    owl:sameAs <https://wikidata.org/wiki/Q1992319> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/16> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
-    ns1:name_id "SOL" ;
-    ns1:number_id 16 .
+    ns1:name_id "Sol" ;
+    ns1:number_id 16 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2465181> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/35> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/3> ;
-    ns1:name_id "JERÓNIMOS" ;
-    ns1:number_id 35 .
+    ns1:name_id "Jerónimos" ;
+    ns1:number_id 35 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10306766> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/11> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
-    ns1:name_id "PALACIO" ;
-    ns1:number_id 11 .
+    ns1:name_id "Palacio" ;
+    ns1:number_id 11 ;
+    owl:sameAs <https://wikidata.org/wiki/Q2136510> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/51> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/5> ;
-    ns1:name_id "EL VISO" ;
-    ns1:number_id 51 .
+    ns1:name_id "El Viso" ;
+    ns1:number_id 51 ;
+    owl:sameAs <https://wikidata.org/wiki/Q4778> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/15> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/1> ;
-    ns1:name_id "UNIVERSIDAD" ;
-    ns1:number_id 15 .
+    ns1:name_id "Universidad" ;
+    ns1:number_id 15 ;
+    owl:sameAs <https://wikidata.org/wiki/Q10387767> .
 
-<http://smartcity.linkeddata.es/transport/data/operator/GIC> a ns1:Operator ;
-    ns1:name_id "GIC" .
+<http://smartcity.linkeddata.es/transport/data/operator/Gesti%C3%B3n%20Inteligente%20de%20Cargas> a ns1:Operator ;
+    ns1:name_id "Gestión Inteligente de Cargas" ;
+    owl:sameAs <https://wikidata.org/wiki/Q114757945> .
 
 <http://smartcity.linkeddata.es/transport/data/neighbourhood/41> a ns1:Neighbourhood ;
     ns1:hasDistrict <http://smartcity.linkeddata.es/transport/data/district/4> ;
-    ns1:name_id "RECOLETOS" ;
-    ns1:number_id 41 .
+    ns1:name_id "Recoletos" ;
+    ns1:number_id 41 ;
+    owl:sameAs <https://wikidata.org/wiki/Q3814551> .
 
 <http://smartcity.linkeddata.es/transport/data/location/Aparcamiento> a ns1:Location ;
     ns1:name_id "Aparcamiento" .
@@ -3674,6 +3784,7 @@
 <http://smartcity.linkeddata.es/transport/data/location/Estaci%C3%B3n%20de%20servicio> a ns1:Location ;
     ns1:name_id "Estación de servicio" .
 
-<http://smartcity.linkeddata.es/transport/data/operator/REPSOL> a ns1:Operator ;
-    ns1:name_id "REPSOL" .
+<http://smartcity.linkeddata.es/transport/data/operator/Repsol> a ns1:Operator ;
+    ns1:name_id "Repsol" ;
+    owl:sameAs <https://wikidata.org/wiki/Q174747> .
 
