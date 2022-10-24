@@ -1,0 +1,4 @@
+flask # webapp
+folium # mapas
+rdflib 
+SPARQLWrapper
