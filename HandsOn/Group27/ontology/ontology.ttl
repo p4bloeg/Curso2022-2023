@@ -35,7 +35,7 @@ schema:value rdf:type owl:ObjectProperty ;
                 rdfs:range xsd:float .
 
 time:inXSDDateTime rdf:type owl:ObjectProperty ;
-                rdfs:domain time:Observation ;
+                rdfs:domain ssn:Observation ;
                 rdfs:range xsd:dateTime .
 
 ssn:featureOfInterest rdf:type owl:ObjectProperty ;
