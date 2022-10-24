@@ -2,6 +2,7 @@ PREFIX  xsd:    <http://www.w3.org/2001/XMLSchema#>
 PREFIX  rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX  ns:     <http://desfibriladores.com/ontology/desfibrilador/>
 PREFIX  owl:    <http://www.w3.org/2002/07/owl#/>
+PREFIX  wikibase: <http://wikiba.se/ontology#>
 
 # Desfibriladores con sus codigos DEA identificativos
 SELECT ?desfibrilador ?codigo_dea
@@ -17,8 +18,8 @@ WHERE{
     ?desfibrilador ns:direccion_establecimiento ?direccion .
     ?direccion ns:hasPuertaDireccion ?puerta
 }
-# Municipos, y su link, equivalentes en wikidata
-SELECT ?municipio ?link
+# Municipos, y su link, equivalentes en wikidata (es la unica query con owl:sameAs ya que nuestro csv no permitia asociar más tipos de datos)
+SELECT ?municipio ?same_as_wikidata_municipio
 WHERE{
     ?municipio rdf:type ns:Municipio .
     ?municipio owl:sameAs ?same_as_wikidata_municipio
