@@ -5,7 +5,6 @@
 @prefix ssn: <http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix time: <http://www.w3.org/TR/owl-time#> .
 @prefix schema: <http://schema.org/> .
 
 # Ontology v3
@@ -34,7 +33,7 @@ schema:value rdf:type owl:ObjectProperty ;
                 rdfs:domain ssn:Observation ;
                 rdfs:range xsd:float .
 
-time:inXSDDateTime rdf:type owl:ObjectProperty ;
+ssn:resultTime rdf:type owl:ObjectProperty ;
                 rdfs:domain ssn:Observation ;
                 rdfs:range xsd:dateTime .
 
