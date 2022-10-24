@@ -12,14 +12,14 @@
 
 **The SPARQL file:**
 
-- [] Includes at least 1 query
-- [] Contains queries that retrieve the data that would be needed in the application
+- [X] Includes at least 1 query
+- [X] Contains queries that retrieve the data that would be needed in the application
 
 **Every SPARQL query:**
 
-- [] Makes use of the ontology
-- [] Returns a non-empty result
-- [] Makes use of the owl:sameAs links
+- [X] Makes use of the ontology
+- [X] Returns a non-empty result
+- [X] Makes use of the owl:sameAs links
 
 ## Comments on the self-assessment
 _(If required)_
