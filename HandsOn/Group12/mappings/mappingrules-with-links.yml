@@ -30,6 +30,23 @@ mappings:
                 - [parameter, $(paremeter)]
 
    
+district:
+    sources:
+      - [Calidad_AgRegenerada_2022-update.csv~csv]
+    s: http://base.regeneratedwater.com/purification_plant/$(district)
+    po:
+      - [a, regeneratedwater:district]
+      - [regeneratedwater:district , ]
+      - [regeneratedwater:purificationPlant , ]
+      - [owl:sameAs , $(district_URI_from_Wikidata)~iri]
+      - p:
+        o:
+            - mapping: purificationPlant
+            condition:
+                function: equal
+                parameters:
+                - [district, $(district)]
+                - [purificationPlant,]
 
   parameter:
     sources:
@@ -39,6 +56,7 @@ mappings:
       - [a, regeneratedwater:parameter]
       - [regeneratedwater:parameterName , ]
       - [regeneratedwater:sample , ]
+      - [owl:sameAs , $(parameter_URI_from_Wikidata)~iri]
       - p: regeneratedWater:hasSample
         o:
             - mapping: sample
