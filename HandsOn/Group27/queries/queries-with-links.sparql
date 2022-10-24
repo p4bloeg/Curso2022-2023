@@ -27,7 +27,7 @@ WHERE
 SELECT DISTINCT ?ob_id ?building_id ?ob_unit_text ?ob_value ?ob_ec_energy_group ?ob_ec_type_of_energy (year(?date) as ?year) (month(?date) as ?month)
 {
     ?ob_id a ssn:Observation ;
-        time:inXSDDate ?date ;
+        ssn:resultTime ?date ;
         ssn:featureOfInterest ?building_id ;
         schema:unitText ?ob_unit_text ;
         schema:value ?ob_value .
@@ -51,5 +51,5 @@ SELECT DISTINCT (year(?date) as ?year) (month(?date) as ?month)
 WHERE 
 {
     ?ob_id a ssn:Observation ;
-        time:inXSDDate ?date .
+        ssn:resultTime ?date .
 }

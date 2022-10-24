@@ -37,7 +37,7 @@ WHERE
         schema:unitText ?ob_unit_text ;
         schema:value ?ob_value ;
         ssn:featureOfInterest ?ob_civicStructures ;
-        time:inXSDDate ?ob_time .
+        ssn:resultTime ?ob_time .
         OPTIONAL{
             ?observation ec:energyGroup ?ob_ec_energy_group ;
                 ec:typeOfEnergy ?ob_ec_type_of_energy ;

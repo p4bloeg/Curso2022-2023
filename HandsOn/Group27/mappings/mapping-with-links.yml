@@ -81,7 +81,7 @@ mappings:
                 o:
                     value: $(type_of_energy)
                     datatype: xsd:string
-            -   p: time:inXSDDate
+            -   p: ssn:resultTime
                 o:
                     value: $(date)
                     datatype: xsd:date
