@@ -160,17 +160,17 @@
 
 :codigoBarrio rdf:type owl:ObjectProperty;
     rdfs:domain :Barrio;
-    rdfs:range xsd:Integer.
+    rdfs:range xsd:integer.
 
 ## http://madridturistsites.es/ontolgy/codigoDistrito
 
 :codigoDistrito rdf:type owl:ObjectProperty ;
     rdfs:domain :Distrito;
-    rdfs:range xsd:Integer.
+    rdfs:range xsd:integer.
 
 
 ## http://madridturistsites.es/ontolgy/codigoPostal
 
 :codigoDistrito rdf:type owl:ObjectProperty ;
     rdfs:domain :Distrito;
-    rdfs:range xsd:Integer.
+    rdfs:range xsd:integer.
