@@ -75,7 +75,7 @@ em:seDesarrolla a owl:ObjectProperty ;
     rdfs:range time:IntervaloTiempo .
 
 em:seEncuentra a owl:ObjectProperty ;
-    rdfs:label "se encuentra" ;
+    rdfs:label "pertenece barrio" ;
     rdfs:domain er:Instalacion ;
     rdfs:range er:Barrio .
 
@@ -85,8 +85,8 @@ em:inscribe a owl:ObjectProperty ;
     rdfs:range er:Actividad .
 
 em:perteneceA a owl:ObjectProperty ;
-    rdfs:label "pertenece a" ;
-    rdfs:domain er:Barrio ;
+    rdfs:label "pertenece distrito" ;
+    rdfs:domain er:Instalacion ;
     rdfs:range er:Distrito .
 
 em:seLocaliza a owl:ObjectProperty ;
