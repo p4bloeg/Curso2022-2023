@@ -31,3 +31,23 @@ Consumed quantity |
 Wikidata ref (if exists) |
 
 -----------------------
+## Deployment considerations
+
+*How to install the requirements*
+`$ pip install -r requierements.txt`
+
+*How to deploy the web-app*
+`$ python run.py `
+
+Env. Variables | Description
+---|---
+HELIO_SERVER | SPARQL-endpoint server IP:PORT 
+APP_HOST | The IP to deploy the web-application 
+APP_PORT | The PORT to deploy the web-application 
+
+Important |
+---|
+An SPARQL-endpoint server is required, its IP-PORT has to be defined as an enviroment variable. |
+The graph to be provided by the SPARQL-endpoint is located in `../rdf/consumo-energia-edificios-updated-with-links.ttl` |
+
+-----------------------
