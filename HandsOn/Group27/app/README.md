@@ -2,7 +2,7 @@
 
 This solution is a web application that provides the possibility of visualizing different types of energy consumption by public buildings in the city of Madrid.
 
-This solution allows filtering data using a group of properties, which values are provided by a series of drop-down lists.
+Offers a series of query filters using a group of properties, which values are provided by a series of drop-down lists. Also, a SPARQL-endpoint is provided, that allows the final user to dive into the application graph. 
 
 #### User's interface
 ![User UI](../img/view.png?raw=true)
