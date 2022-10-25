@@ -1,8 +1,9 @@
 from rdflib.plugins.sparql import prepareQuery
 from datetime import datetime
 from SPARQLWrapper import SPARQLWrapper, JSON
+from settings import HELIO_SERVER
 
-sparql = SPARQLWrapper("http://localhost:9000/sparql")
+sparql = SPARQLWrapper(HELIO_SERVER)
 
 c_building_inf = dict()
 c_years = list()

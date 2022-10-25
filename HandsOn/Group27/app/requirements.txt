@@ -1,4 +1,4 @@
-flask # webapp
-folium # mapas
+flask 
+folium 
 rdflib 
 SPARQLWrapper

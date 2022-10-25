@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from model import graph_DAO
-
+from settings import APP_HOST, APP_PORT, HELIO_SERVER
 import folium
 import pathlib
 
@@ -34,7 +34,8 @@ def index():
                 district=districts, 
                 neighborhood=neighborhoods, 
                 year=years, 
-                month=[month for _,month in spanish_months.items()]
+                month=[month for _,month in spanish_months.items()],
+                sparql_endpoint=HELIO_SERVER
             )
 
 @app.route('/templates/map')
@@ -132,4 +133,4 @@ def build_popup(building, observation):
     return folium.Popup(iframe, min_width=300, max_width=300)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host=APP_HOST, port=APP_PORT)
