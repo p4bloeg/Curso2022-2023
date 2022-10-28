@@ -9,6 +9,7 @@
 @prefix ssn:   <http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#> .
 @prefix ex: <http:www.shapes.es/evaluation#> .
 
+
 ex:shapesObservation a sh:NodeShape ;
 sh:targetClass ssn:Observation ;
 sh:property [ # _:b1
