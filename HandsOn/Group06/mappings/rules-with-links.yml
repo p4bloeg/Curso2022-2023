@@ -24,14 +24,14 @@ mappings:
       - [ns:hasHorarioAcceso, $(horario_acceso)]
       - p: ns:hasDireccionEstablecimiento
         o:
-        - mapping:triplesmap2
+        - mapping: triplesmap2
       - p: ns:hasMunicipio
         o:
-        - mapping:triplesmap3
+        - mapping: triplesmap3
 
   triplesmap2:
     sources: desfibriladores
-    s: $(direccion_establecimiento)
+    s: http://desfibriladores.com/ontology/desfibrilador/direccion/$(direccion_establecimiento)
     po:
       - [a, ns:Direccion]
       - [ns:hasCodigoViaDireccion, $(direccion_via_codigo)]
@@ -43,10 +43,10 @@ mappings:
       - [ns:hasUbicacionDireccion, $(direccion_ubicacion)]
       - [ns:hasCoordXDireccion, $(direccion_coordenada_x), xsd:float]
       - [ns:hasCoordYDireccion, $(direccion_coordenada_y), xsd:float]
-  
+
   triplesmap3:
     sources: desfibriladores
-    s: $(municipio_codigo)
+    s: http://desfibriladores.com/ontology/desfibrilador/municipio/$(municipio_codigo)
     po:
       - [a, ns:Municipio]
       - [ns:hasCodigoMunicipio, $(municipio_codigo), xsd:nonNegativeInteger]
