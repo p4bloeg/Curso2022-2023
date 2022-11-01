@@ -1,12 +1,11 @@
+@base <http://www.semanticweb_g27.org/ontology/EnergyCons#> .
 @prefix ec: <http://www.semanticweb_g27.org/ontology/EnergyCons#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ssn: <http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@base <http://www.semanticweb_g27.org/ontology/EnergyCons#> .
 
 <http://www.semanticweb_g27.org/ontology/EnergyCons#> rdf:type owl:Ontology .
 
